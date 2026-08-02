@@ -1,0 +1,702 @@
+{
+  "api/Eraware.Modules.MyModule.Common.Globals.ModulePrefix.html": {
+    "href": "api/Eraware.Modules.MyModule.Common.Globals.ModulePrefix.html",
+    "title": "Field ModulePrefix",
+    "summary": "Field ModulePrefix The module prefix to use to uniquely identify string that may conflict with others, such as sql tables. Namespace: Eraware.Modules.MyModule.Common Assembly: Eraware.Modules.MyModule.dll Syntax public const string ModulePrefix = \"Era_MyModule_\" Returns Type Description string The module prefix to use to uniquely identify string that may conflict with others, such as sql tables."
+  },
+  "api/Eraware.Modules.MyModule.Common.Globals.html": {
+    "href": "api/Eraware.Modules.MyModule.Common.Globals.html",
+    "title": "Class Globals",
+    "summary": "Class Globals Global values, constants and methods. Inheritance object Globals Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Common Assembly: Eraware.Modules.MyModule.dll Syntax public static class Globals Fields Name Description ModulePrefix The module prefix to use to uniquely identify string that may conflict with others, such as sql tables."
+  },
+  "api/Eraware.Modules.MyModule.Common.html": {
+    "href": "api/Eraware.Modules.MyModule.Common.html",
+    "title": "Namespace Eraware.Modules.MyModule.Common",
+    "summary": "Namespace Eraware.Modules.MyModule.Common Classes Globals Global values, constants and methods."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.-ctor.html",
+    "title": "Constructor ItemController",
+    "summary": "Constructor ItemController | Edit this page View Source ItemController(IItemService) Initializes a new instance of the ItemController class. Declaration public ItemController(IItemService itemService) Parameters Type Name Description IItemService itemService The items reposioty."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.CreateItem.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.CreateItem.html",
+    "title": "Method CreateItem",
+    "summary": "Method CreateItem | Edit this page View Source CreateItem(CreateItemDTO) Creates a new item. Declaration [HttpPost] [ValidateAntiForgeryToken] [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Edit)] [SwaggerResponse(HttpStatusCode.OK, typeof(ItemViewModel), Description = \"OK\")] [SwaggerResponse(HttpStatusCode.BadRequest, typeof(string), Description = \"Bad Request\")] public Task<IHttpActionResult> CreateItem(CreateItemDTO item) Parameters Type Name Description CreateItemDTO item The item to create. Returns Type Description Task<IHttpActionResult> Nothing."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem.html",
+    "title": "Method DeleteItem",
+    "summary": "Method DeleteItem | Edit this page View Source DeleteItem(int) Deletes an existing item. Declaration [HttpPost] [ValidateAntiForgeryToken] [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Edit)] [SwaggerResponse(HttpStatusCode.OK, typeof(void), Description = \"OK\")] public Task<IHttpActionResult> DeleteItem(int itemId) Parameters Type Name Description int itemId The id of the item to delete. Returns Type Description Task<IHttpActionResult> Nothing."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage.html",
+    "title": "Method GetItemsPage",
+    "summary": "Method GetItemsPage | Edit this page View Source GetItemsPage(GetItemsPageDTO) Gets a paged and sorted list of items matching a certain query. Declaration [HttpGet] [AllowAnonymous] [SwaggerResponse(HttpStatusCode.OK, typeof(ItemsPageViewModel), Description = \"OK\")] public Task<IHttpActionResult> GetItemsPage(GetItemsPageDTO dto) Parameters Type Name Description GetItemsPageDTO dto The details of the query, GetItemsPageDTO. Returns Type Description Task<IHttpActionResult> List of pages + paging information."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem.html",
+    "title": "Method UpdateItem",
+    "summary": "Method UpdateItem | Edit this page View Source UpdateItem(UpdateItemDTO) Updates an existing item. Declaration [HttpPost] [ValidateAntiForgeryToken] [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Edit)] [SwaggerResponse(HttpStatusCode.OK, null, Description = \"OK\")] public Task<IHttpActionResult> UpdateItem(UpdateItemDTO item) Parameters Type Name Description UpdateItemDTO item The new information about the item, UpdateItemDTO. Returns Type Description Task<IHttpActionResult> Only a status code and no data."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit.html",
+    "title": "Method UserCanEdit",
+    "summary": "Method UserCanEdit | Edit this page View Source UserCanEdit() Checks if a user can edit the current items. Declaration [HttpGet] [AllowAnonymous] [SwaggerResponse(HttpStatusCode.OK, typeof(bool), Description = \"OK\")] public IHttpActionResult UserCanEdit() Returns Type Description IHttpActionResult A boolean indicating whether the user can edit the current items."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ItemController.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ItemController.html",
+    "title": "Class ItemController",
+    "summary": "Class ItemController Provides Web API access for items. Inheritance object ApiController DnnApiController ModuleApiController ItemController Implements IHttpController IDisposable Inherited Members ModuleApiController.UserInfo ModuleApiController.CanEdit DnnApiController.PortalSettings DnnApiController.ActiveModule ApiController.ExecuteAsync(HttpControllerContext, CancellationToken) ApiController.Validate<TEntity>(TEntity) ApiController.Validate<TEntity>(TEntity, string) ApiController.BadRequest() ApiController.BadRequest(string) ApiController.BadRequest(ModelStateDictionary) ApiController.Conflict() ApiController.Content<T>(HttpStatusCode, T) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, string) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue) ApiController.Created<T>(string, T) ApiController.Created<T>(Uri, T) ApiController.CreatedAtRoute<T>(string, object, T) ApiController.CreatedAtRoute<T>(string, IDictionary<string, object>, T) ApiController.InternalServerError() ApiController.InternalServerError(Exception) ApiController.Json<T>(T) ApiController.Json<T>(T, JsonSerializerSettings) ApiController.Json<T>(T, JsonSerializerSettings, Encoding) ApiController.NotFound() ApiController.Ok() ApiController.Ok<T>(T) ApiController.Redirect(string) ApiController.Redirect(Uri) ApiController.RedirectToRoute(string, object) ApiController.RedirectToRoute(string, IDictionary<string, object>) ApiController.ResponseMessage(HttpResponseMessage) ApiController.StatusCode(HttpStatusCode) ApiController.Unauthorized(params AuthenticationHeaderValue[]) ApiController.Unauthorized(IEnumerable<AuthenticationHeaderValue>) ApiController.Initialize(HttpControllerContext) ApiController.Dispose() ApiController.Dispose(bool) ApiController.Configuration ApiController.ControllerContext ApiController.ActionContext ApiController.ModelState ApiController.Request ApiController.RequestContext ApiController.Url ApiController.User object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Controllers Assembly: Eraware.Modules.MyModule.dll Syntax public class ItemController : ModuleApiController, IHttpController, IDisposable Constructors Name Description ItemController(IItemService) Initializes a new instance of the ItemController class. Methods Name Description CreateItem(CreateItemDTO) Creates a new item. DeleteItem(int) Deletes an existing item. GetItemsPage(GetItemsPageDTO) Gets a paged and sorted list of items matching a certain query. UpdateItem(UpdateItemDTO) Updates an existing item. UserCanEdit() Checks if a user can edit the current items."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.LocalizationController.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.-ctor.html",
+    "title": "Constructor LocalizationController",
+    "summary": "Constructor LocalizationController | Edit this page View Source LocalizationController(ILocalizationService) Initializes a new instance of the LocalizationController class. Declaration public LocalizationController(ILocalizationService localizationService) Parameters Type Name Description ILocalizationService localizationService The service to localize resources."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization.html",
+    "title": "Method GetLocalization",
+    "summary": "Method GetLocalization | Edit this page View Source GetLocalization() Gets localization keys and values. Declaration [HttpGet] [AllowAnonymous] [SwaggerResponse(HttpStatusCode.OK, typeof(LocalizationViewModel), Description = \"OK\")] public IHttpActionResult GetLocalization() Returns Type Description IHttpActionResult LocalizationViewModel."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.LocalizationController.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.html",
+    "title": "Class LocalizationController",
+    "summary": "Class LocalizationController Provides localization related web services. Inheritance object ApiController DnnApiController ModuleApiController LocalizationController Implements IHttpController IDisposable Inherited Members ModuleApiController.UserInfo ModuleApiController.CanEdit DnnApiController.PortalSettings DnnApiController.ActiveModule ApiController.ExecuteAsync(HttpControllerContext, CancellationToken) ApiController.Validate<TEntity>(TEntity) ApiController.Validate<TEntity>(TEntity, string) ApiController.BadRequest() ApiController.BadRequest(string) ApiController.BadRequest(ModelStateDictionary) ApiController.Conflict() ApiController.Content<T>(HttpStatusCode, T) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, string) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue) ApiController.Created<T>(string, T) ApiController.Created<T>(Uri, T) ApiController.CreatedAtRoute<T>(string, object, T) ApiController.CreatedAtRoute<T>(string, IDictionary<string, object>, T) ApiController.InternalServerError() ApiController.InternalServerError(Exception) ApiController.Json<T>(T) ApiController.Json<T>(T, JsonSerializerSettings) ApiController.Json<T>(T, JsonSerializerSettings, Encoding) ApiController.NotFound() ApiController.Ok() ApiController.Ok<T>(T) ApiController.Redirect(string) ApiController.Redirect(Uri) ApiController.RedirectToRoute(string, object) ApiController.RedirectToRoute(string, IDictionary<string, object>) ApiController.ResponseMessage(HttpResponseMessage) ApiController.StatusCode(HttpStatusCode) ApiController.Unauthorized(params AuthenticationHeaderValue[]) ApiController.Unauthorized(IEnumerable<AuthenticationHeaderValue>) ApiController.Initialize(HttpControllerContext) ApiController.Dispose() ApiController.Dispose(bool) ApiController.Configuration ApiController.ControllerContext ApiController.ActionContext ApiController.ModelState ApiController.Request ApiController.RequestContext ApiController.Url ApiController.User object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Controllers Assembly: Eraware.Modules.MyModule.dll Syntax public class LocalizationController : ModuleApiController, IHttpController, IDisposable Constructors Name Description LocalizationController(ILocalizationService) Initializes a new instance of the LocalizationController class. Methods Name Description GetLocalization() Gets localization keys and values."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit.html",
+    "title": "Property CanEdit",
+    "summary": "Property CanEdit | Edit this page View Source CanEdit Gets or sets a value indicating whether the user can edit this module. Declaration public virtual bool CanEdit { get; set; } Property Value Type Description bool"
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo.html",
+    "title": "Property UserInfo",
+    "summary": "Property UserInfo | Edit this page View Source UserInfo Gets information about the Dnn user. Declaration public virtual UserInfo UserInfo { get; } Property Value Type Description UserInfo"
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.html",
+    "title": "Class ModuleApiController",
+    "summary": "Class ModuleApiController Provides common features to all module controller. Inheritance object ApiController DnnApiController ModuleApiController ItemController LocalizationController Implements IHttpController IDisposable Inherited Members DnnApiController.PortalSettings DnnApiController.ActiveModule ApiController.ExecuteAsync(HttpControllerContext, CancellationToken) ApiController.Validate<TEntity>(TEntity) ApiController.Validate<TEntity>(TEntity, string) ApiController.BadRequest() ApiController.BadRequest(string) ApiController.BadRequest(ModelStateDictionary) ApiController.Conflict() ApiController.Content<T>(HttpStatusCode, T) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, string) ApiController.Content<T>(HttpStatusCode, T, MediaTypeFormatter, MediaTypeHeaderValue) ApiController.Created<T>(string, T) ApiController.Created<T>(Uri, T) ApiController.CreatedAtRoute<T>(string, object, T) ApiController.CreatedAtRoute<T>(string, IDictionary<string, object>, T) ApiController.InternalServerError() ApiController.InternalServerError(Exception) ApiController.Json<T>(T) ApiController.Json<T>(T, JsonSerializerSettings) ApiController.Json<T>(T, JsonSerializerSettings, Encoding) ApiController.NotFound() ApiController.Ok() ApiController.Ok<T>(T) ApiController.Redirect(string) ApiController.Redirect(Uri) ApiController.RedirectToRoute(string, object) ApiController.RedirectToRoute(string, IDictionary<string, object>) ApiController.ResponseMessage(HttpResponseMessage) ApiController.StatusCode(HttpStatusCode) ApiController.Unauthorized(params AuthenticationHeaderValue[]) ApiController.Unauthorized(IEnumerable<AuthenticationHeaderValue>) ApiController.Initialize(HttpControllerContext) ApiController.Dispose() ApiController.Dispose(bool) ApiController.Configuration ApiController.ControllerContext ApiController.ActionContext ApiController.ModelState ApiController.Request ApiController.RequestContext ApiController.Url ApiController.User object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Controllers Assembly: Eraware.Modules.MyModule.dll Syntax public abstract class ModuleApiController : DnnApiController, IHttpController, IDisposable Properties Name Description CanEdit Gets or sets a value indicating whether the user can edit this module. UserInfo Gets information about the Dnn user."
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes.html",
+    "title": "Method RegisterRoutes",
+    "summary": "Method RegisterRoutes | Edit this page View Source RegisterRoutes(IMapRoute) Declaration public void RegisterRoutes(IMapRoute mapRouteManager) Parameters Type Name Description IMapRoute mapRouteManager Implements DotNetNuke.Web.Api.IServiceRouteMapper.RegisterRoutes(DotNetNuke.Web.Api.IMapRoute)"
+  },
+  "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.html",
+    "title": "Class ServiceRouteMapper",
+    "summary": "Class ServiceRouteMapper Implements the Dnn IServiceRouteMapper to register this module routes. Inheritance object ServiceRouteMapper Implements IServiceRouteMapper Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Controllers Assembly: Eraware.Modules.MyModule.dll Syntax public class ServiceRouteMapper : IServiceRouteMapper Methods Name Description RegisterRoutes(IMapRoute)"
+  },
+  "api/Eraware.Modules.MyModule.Controllers.html": {
+    "href": "api/Eraware.Modules.MyModule.Controllers.html",
+    "title": "Namespace Eraware.Modules.MyModule.Controllers",
+    "summary": "Namespace Eraware.Modules.MyModule.Controllers Classes ItemController Provides Web API access for items. LocalizationController Provides localization related web services. ModuleApiController Provides common features to all module controller. ServiceRouteMapper Implements the Dnn IServiceRouteMapper to register this module routes."
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt.html",
+    "title": "Property CreatedAt",
+    "summary": "Property CreatedAt | Edit this page View Source CreatedAt Gets or sets the date and time the entity was first created. Declaration public DateTime CreatedAt { get; set; } Property Value Type Description DateTime Implements IEntity.CreatedAt"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId.html",
+    "title": "Property CreatedByUserId",
+    "summary": "Property CreatedByUserId | Edit this page View Source CreatedByUserId Gets or sets the Dnn user ID that created the entity. Declaration public int CreatedByUserId { get; set; } Property Value Type Description int Implements IEntity.CreatedByUserId"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id.html",
+    "title": "Property Id",
+    "summary": "Property Id | Edit this page View Source Id Gets or sets the entity id. Declaration [Key] public int Id { get; set; } Property Value Type Description int Implements IEntity.Id"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt.html",
+    "title": "Property UpdatedAt",
+    "summary": "Property UpdatedAt | Edit this page View Source UpdatedAt Gets or sets the date and time the entity was last updated. Declaration public DateTime UpdatedAt { get; set; } Property Value Type Description DateTime Implements IEntity.UpdatedAt"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId.html",
+    "title": "Property UpdatedByUserId",
+    "summary": "Property UpdatedByUserId | Edit this page View Source UpdatedByUserId Gets or sets the Dnn user ID that last updated the entity. Declaration public int UpdatedByUserId { get; set; } Property Value Type Description int Implements IEntity.UpdatedByUserId"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.html",
+    "title": "Class BaseEntity",
+    "summary": "Class BaseEntity Base entity to provide common properties to other entities and allow it's usage in generic repositories. Inheritance object BaseEntity Item Implements IEntity Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Data.Entities Assembly: Eraware.Modules.MyModule.dll Syntax public class BaseEntity : IEntity Properties Name Description CreatedAt Gets or sets the date and time the entity was first created. CreatedByUserId Gets or sets the Dnn user ID that created the entity. Id Gets or sets the entity id. UpdatedAt Gets or sets the date and time the entity was last updated. UpdatedByUserId Gets or sets the Dnn user ID that last updated the entity."
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt.html",
+    "title": "Property CreatedAt",
+    "summary": "Property CreatedAt | Edit this page View Source CreatedAt Gets or sets the date and time the entity was first created. Declaration DateTime CreatedAt { get; set; } Property Value Type Description DateTime"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId.html",
+    "title": "Property CreatedByUserId",
+    "summary": "Property CreatedByUserId | Edit this page View Source CreatedByUserId Gets or sets the Dnn user ID that created the entity. Declaration int CreatedByUserId { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.Id.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.Id.html",
+    "title": "Property Id",
+    "summary": "Property Id | Edit this page View Source Id Gets or sets the entity id. Declaration [Key] int Id { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt.html",
+    "title": "Property UpdatedAt",
+    "summary": "Property UpdatedAt | Edit this page View Source UpdatedAt Gets or sets the date and time the entity was last updated. Declaration DateTime UpdatedAt { get; set; } Property Value Type Description DateTime"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId.html",
+    "title": "Property UpdatedByUserId",
+    "summary": "Property UpdatedByUserId | Edit this page View Source UpdatedByUserId Gets or sets the Dnn user ID that last updated the entity. Declaration int UpdatedByUserId { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.IEntity.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.html",
+    "title": "Interface IEntity",
+    "summary": "Interface IEntity Ensures entities have some common properties. Namespace: Eraware.Modules.MyModule.Data.Entities Assembly: Eraware.Modules.MyModule.dll Syntax public interface IEntity Properties Name Description CreatedAt Gets or sets the date and time the entity was first created. CreatedByUserId Gets or sets the Dnn user ID that created the entity. Id Gets or sets the entity id. UpdatedAt Gets or sets the date and time the entity was last updated. UpdatedByUserId Gets or sets the Dnn user ID that last updated the entity."
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.Item.Description.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.Item.Description.html",
+    "title": "Property Description",
+    "summary": "Property Description | Edit this page View Source Description Gets or sets the item description. Declaration [StringLength(250)] public string Description { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.Item.Name.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.Item.Name.html",
+    "title": "Property Name",
+    "summary": "Property Name | Edit this page View Source Name Gets or sets the item name. Declaration [Required] [StringLength(50)] public string Name { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.Item.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.Item.html",
+    "title": "Class Item",
+    "summary": "Class Item Represents an item entity. Inheritance object BaseEntity Item Implements IEntity Inherited Members BaseEntity.Id BaseEntity.CreatedAt BaseEntity.UpdatedAt BaseEntity.CreatedByUserId BaseEntity.UpdatedByUserId object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Data.Entities Assembly: Eraware.Modules.MyModule.dll Syntax [Table(\"Era_MyModule_Items\")] public class Item : BaseEntity, IEntity Properties Name Description Description Gets or sets the item description. Name Gets or sets the item name."
+  },
+  "api/Eraware.Modules.MyModule.Data.Entities.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Entities.html",
+    "title": "Namespace Eraware.Modules.MyModule.Data.Entities",
+    "summary": "Namespace Eraware.Modules.MyModule.Data.Entities Classes BaseEntity Base entity to provide common properties to other entities and allow it's usage in generic repositories. Item Represents an item entity. Interfaces IEntity Ensures entities have some common properties."
+  },
+  "api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html",
+    "title": "Constructor ModuleDbContext",
+    "summary": "Constructor ModuleDbContext | Edit this page View Source ModuleDbContext() Initializes a new instance of the ModuleDbContext class. Declaration public ModuleDbContext() | Edit this page View Source ModuleDbContext(DbConnection) Initializes a new instance of the ModuleDbContext class. Declaration public ModuleDbContext(DbConnection connection) Parameters Type Name Description DbConnection connection An existing DbConnection."
+  },
+  "api/Eraware.Modules.MyModule.Data.ModuleDbContext.Items.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.Items.html",
+    "title": "Property Items",
+    "summary": "Property Items | Edit this page View Source Items Gets or sets the module items. Declaration public DbSet<Item> Items { get; set; } Property Value Type Description DbSet<Item>"
+  },
+  "api/Eraware.Modules.MyModule.Data.ModuleDbContext.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.html",
+    "title": "Class ModuleDbContext",
+    "summary": "Class ModuleDbContext The data context for this module. Inheritance object DbContext ModuleDbContext Implements IDisposable IObjectContextAdapter Inherited Members DbContext.OnModelCreating(DbModelBuilder) DbContext.Set<TEntity>() DbContext.Set(Type) DbContext.SaveChanges() DbContext.SaveChangesAsync() DbContext.SaveChangesAsync(CancellationToken) DbContext.GetValidationErrors() DbContext.ShouldValidateEntity(DbEntityEntry) DbContext.ValidateEntity(DbEntityEntry, IDictionary<object, object>) DbContext.Entry<TEntity>(TEntity) DbContext.Entry(object) DbContext.Dispose() DbContext.Dispose(bool) DbContext.Database DbContext.ChangeTracker DbContext.Configuration object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Data Assembly: Eraware.Modules.MyModule.dll Syntax public class ModuleDbContext : DbContext, IDisposable, IObjectContextAdapter Constructors Name Description ModuleDbContext() Initializes a new instance of the ModuleDbContext class. ModuleDbContext(DbConnection) Initializes a new instance of the ModuleDbContext class. Properties Name Description Items Gets or sets the module items."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.html",
+    "title": "Interface IItemRepository",
+    "summary": "Interface IItemRepository Provides data-access to the Item entity. Inherited Members IRepository<Item>.GetAllAsync(CancellationToken) IRepository<Item>.Get() IRepository<Item>.GetByIdAsync(int, CancellationToken) IRepository<Item>.GetPageAsync(int, int, Expression<Func<Item, bool>>, Expression<Func<Item, object>>, bool, CancellationToken, params Expression<Func<Item, object>>[]) IRepository<Item>.CreateAsync(Item, int, CancellationToken) IRepository<Item>.UpdateAsync(Item, int, CancellationToken) IRepository<Item>.DeleteAsync(int, CancellationToken) Namespace: Eraware.Modules.MyModule.Data.Repositories Assembly: Eraware.Modules.MyModule.dll Syntax public interface IItemRepository : IRepository<Item>"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.CreateAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.CreateAsync.html",
+    "title": "Method CreateAsync",
+    "summary": "Method CreateAsync | Edit this page View Source CreateAsync(T, int, CancellationToken) Creates an entity and saves it to the database. Declaration Task<int> CreateAsync(T entity, int userId = -1, CancellationToken token = default) Parameters Type Name Description T entity The entity to save. int userId The creating Dnn user ID. If not provided, will default to -1. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<int> The id of the recently created item."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.DeleteAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.DeleteAsync.html",
+    "title": "Method DeleteAsync",
+    "summary": "Method DeleteAsync | Edit this page View Source DeleteAsync(int, CancellationToken) Deletes an entity in the database. Declaration Task DeleteAsync(int id, CancellationToken token = default) Parameters Type Name Description int id The id of the entity. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task An awaitable Task."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.Get.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.Get.html",
+    "title": "Method Get",
+    "summary": "Method Get | Edit this page View Source Get() Gets entitties as an IQueryable to allow furter filtering/sorting, etc. Declaration IQueryable<T> Get() Returns Type Description IQueryable<T> An IQueryable of the items."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetAllAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetAllAsync.html",
+    "title": "Method GetAllAsync",
+    "summary": "Method GetAllAsync | Edit this page View Source GetAllAsync(CancellationToken) Gets all entities. Declaration Task<IEnumerable<T>> GetAllAsync(CancellationToken token = default) Parameters Type Name Description CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<IEnumerable<T>> All the entities."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetByIdAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetByIdAsync.html",
+    "title": "Method GetByIdAsync",
+    "summary": "Method GetByIdAsync | Edit this page View Source GetByIdAsync(int, CancellationToken) Gets a single entity by id. Declaration Task<T> GetByIdAsync(int id, CancellationToken token = default) Parameters Type Name Description int id The id of the entity. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<T> A single entity."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetPageAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetPageAsync.html",
+    "title": "Method GetPageAsync",
+    "summary": "Method GetPageAsync | Edit this page View Source GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[]) Gets a page of entities. Declaration Task<PagedList<T>> GetPageAsync(int page, int pageSize, Expression<Func<T, bool>> filter = null, Expression<Func<T, object>> orderBy = null, bool orderByDescending = false, CancellationToken token = default, params Expression<Func<T, object>>[] include) Parameters Type Name Description int page The page number to get. int pageSize The size of each page. Expression<Func<T, bool>> filter An optional filtering expression. Expression<Func<T, object>> orderBy An optional ordering expression. bool orderByDescending If true, will order the results in descending order. CancellationToken token A token that can be used to abort the request early. Expression<Func<T, object>>[] include If specified, will include the defined related entities. Returns Type Description Task<PagedList<T>> PagedList<T>."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.UpdateAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.UpdateAsync.html",
+    "title": "Method UpdateAsync",
+    "summary": "Method UpdateAsync | Edit this page View Source UpdateAsync(T, int, CancellationToken) Updates an entity and saves the changes to the database. Declaration Task UpdateAsync(T entity, int userId = -1, CancellationToken token = default) Parameters Type Name Description T entity The entity to update. int userId The updating Dnn user ID. If not provided, will default to -1. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task An awaitable Task."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.html",
+    "title": "Interface IRepository<T>",
+    "summary": "Interface IRepository<T> Provides generic data access features for entities. Namespace: Eraware.Modules.MyModule.Data.Repositories Assembly: Eraware.Modules.MyModule.dll Syntax public interface IRepository<T> where T : BaseEntity Type Parameters Name Description T The entity type. Methods Name Description CreateAsync(T, int, CancellationToken) Creates an entity and saves it to the database. DeleteAsync(int, CancellationToken) Deletes an entity in the database. Get() Gets entitties as an IQueryable to allow furter filtering/sorting, etc. GetAllAsync(CancellationToken) Gets all entities. GetByIdAsync(int, CancellationToken) Gets a single entity by id. GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[]) Gets a page of entities. UpdateAsync(T, int, CancellationToken) Updates an entity and saves the changes to the database."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.-ctor.html",
+    "title": "Constructor PagedList",
+    "summary": "Constructor PagedList | Edit this page View Source PagedList(IEnumerable<T>, int, int, int, int) Initializes a new instance of the PagedList<T> class. Declaration public PagedList(IEnumerable<T> items, int page, int pageSize, int resultCount, int pageCount) Parameters Type Name Description IEnumerable<T> items The items on this page. int page The current page. int pageSize The size of each page. int resultCount How many items exist in the entire collection. int pageCount The total number of pages available."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Items.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Items.html",
+    "title": "Property Items",
+    "summary": "Property Items | Edit this page View Source Items Gets the items for this page. Declaration public IEnumerable<T> Items { get; } Property Value Type Description IEnumerable<T>"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Page.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Page.html",
+    "title": "Property Page",
+    "summary": "Property Page | Edit this page View Source Page Gets the page number for the current page. Declaration public int Page { get; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageCount.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageCount.html",
+    "title": "Property PageCount",
+    "summary": "Property PageCount | Edit this page View Source PageCount Gets the total number of available pages. Declaration public int PageCount { get; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageSize.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageSize.html",
+    "title": "Property PageSize",
+    "summary": "Property PageSize | Edit this page View Source PageSize Gets the amount of entities per page. Declaration public int PageSize { get; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.ResultCount.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.ResultCount.html",
+    "title": "Property ResultCount",
+    "summary": "Property ResultCount | Edit this page View Source ResultCount Gets the total number of entities available in all pages. Declaration public int ResultCount { get; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.html",
+    "title": "Class PagedList<T>",
+    "summary": "Class PagedList<T> Presents a list of entities in pages. Inheritance object PagedList<T> Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Data.Repositories Assembly: Eraware.Modules.MyModule.dll Syntax public class PagedList<T> Type Parameters Name Description T The type of the entities in the paged list. Constructors Name Description PagedList(IEnumerable<T>, int, int, int, int) Initializes a new instance of the PagedList<T> class. Properties Name Description Items Gets the items for this page. Page Gets the page number for the current page. PageCount Gets the total number of available pages. PageSize Gets the amount of entities per page. ResultCount Gets the total number of entities available in all pages."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.-ctor.html",
+    "title": "Constructor Repository",
+    "summary": "Constructor Repository | Edit this page View Source Repository(ModuleDbContext, IDateTimeProvider) Initializes a new instance of the Repository<T> class. Declaration public Repository(ModuleDbContext context, IDateTimeProvider dateTimeProvider) Parameters Type Name Description ModuleDbContext context The module database context. IDateTimeProvider dateTimeProvider Provides date and time information."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.CreateAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.CreateAsync.html",
+    "title": "Method CreateAsync",
+    "summary": "Method CreateAsync | Edit this page View Source CreateAsync(T, int, CancellationToken) Creates an entity and saves it to the database. Declaration public virtual Task<int> CreateAsync(T entity, int userId = -1, CancellationToken token = default) Parameters Type Name Description T entity The entity to save. int userId The creating Dnn user ID. If not provided, will default to -1. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<int> The id of the recently created item. Implements IRepository<T>.CreateAsync(T, int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.DeleteAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.DeleteAsync.html",
+    "title": "Method DeleteAsync",
+    "summary": "Method DeleteAsync | Edit this page View Source DeleteAsync(int, CancellationToken) Deletes an entity in the database. Declaration public virtual Task DeleteAsync(int id, CancellationToken token = default) Parameters Type Name Description int id The id of the entity. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task An awaitable Task. Implements IRepository<T>.DeleteAsync(int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.Get.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.Get.html",
+    "title": "Method Get",
+    "summary": "Method Get | Edit this page View Source Get() Gets entitties as an IQueryable to allow furter filtering/sorting, etc. Declaration public IQueryable<T> Get() Returns Type Description IQueryable<T> An IQueryable of the items. Implements IRepository<T>.Get()"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetAllAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetAllAsync.html",
+    "title": "Method GetAllAsync",
+    "summary": "Method GetAllAsync | Edit this page View Source GetAllAsync(CancellationToken) Gets all entities. Declaration public virtual Task<IEnumerable<T>> GetAllAsync(CancellationToken token = default) Parameters Type Name Description CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<IEnumerable<T>> All the entities. Implements IRepository<T>.GetAllAsync(CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetByIdAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetByIdAsync.html",
+    "title": "Method GetByIdAsync",
+    "summary": "Method GetByIdAsync | Edit this page View Source GetByIdAsync(int, CancellationToken) Gets a single entity by id. Declaration public Task<T> GetByIdAsync(int id, CancellationToken token = default) Parameters Type Name Description int id The id of the entity. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<T> A single entity. Implements IRepository<T>.GetByIdAsync(int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetPageAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetPageAsync.html",
+    "title": "Method GetPageAsync",
+    "summary": "Method GetPageAsync | Edit this page View Source GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[]) Gets a page of entities. Declaration public virtual Task<PagedList<T>> GetPageAsync(int page, int pageSize, Expression<Func<T, bool>> filter = null, Expression<Func<T, object>> orderBy = null, bool orderByDescending = false, CancellationToken token = default, params Expression<Func<T, object>>[] include) Parameters Type Name Description int page The page number to get. int pageSize The size of each page. Expression<Func<T, bool>> filter An optional filtering expression. Expression<Func<T, object>> orderBy An optional ordering expression. bool orderByDescending If true, will order the results in descending order. CancellationToken token A token that can be used to abort the request early. Expression<Func<T, object>>[] include If specified, will include the defined related entities. Returns Type Description Task<PagedList<T>> PagedList<T>. Implements IRepository<T>.GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[])"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.UpdateAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.UpdateAsync.html",
+    "title": "Method UpdateAsync",
+    "summary": "Method UpdateAsync | Edit this page View Source UpdateAsync(T, int, CancellationToken) Updates an entity and saves the changes to the database. Declaration public virtual Task UpdateAsync(T entity, int userId = -1, CancellationToken token = default) Parameters Type Name Description T entity The entity to update. int userId The updating Dnn user ID. If not provided, will default to -1. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task An awaitable Task. Implements IRepository<T>.UpdateAsync(T, int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.html",
+    "title": "Class Repository<T>",
+    "summary": "Class Repository<T> Provides common generic data access methods for entities. Inheritance object Repository<T> Implements IRepository<T> Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Data.Repositories Assembly: Eraware.Modules.MyModule.dll Syntax public abstract class Repository<T> : IRepository<T> where T : BaseEntity Type Parameters Name Description T The type of the entities. Constructors Name Description Repository(ModuleDbContext, IDateTimeProvider) Initializes a new instance of the Repository<T> class. Methods Name Description CreateAsync(T, int, CancellationToken) Creates an entity and saves it to the database. DeleteAsync(int, CancellationToken) Deletes an entity in the database. Get() Gets entitties as an IQueryable to allow furter filtering/sorting, etc. GetAllAsync(CancellationToken) Gets all entities. GetByIdAsync(int, CancellationToken) Gets a single entity by id. GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[]) Gets a page of entities. UpdateAsync(T, int, CancellationToken) Updates an entity and saves the changes to the database."
+  },
+  "api/Eraware.Modules.MyModule.Data.Repositories.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.Repositories.html",
+    "title": "Namespace Eraware.Modules.MyModule.Data.Repositories",
+    "summary": "Namespace Eraware.Modules.MyModule.Data.Repositories Classes PagedList<T> Presents a list of entities in pages. Repository<T> Provides common generic data access methods for entities. Interfaces IItemRepository Provides data-access to the Item entity. IRepository<T> Provides generic data access features for entities."
+  },
+  "api/Eraware.Modules.MyModule.Data.html": {
+    "href": "api/Eraware.Modules.MyModule.Data.html",
+    "title": "Namespace Eraware.Modules.MyModule.Data",
+    "summary": "Namespace Eraware.Modules.MyModule.Data Namespaces Eraware.Modules.MyModule.Data.Entities Eraware.Modules.MyModule.Data.Repositories Classes ModuleDbContext The data context for this module."
+  },
+  "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow.html": {
+    "href": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow.html",
+    "title": "Method GetUtcNow",
+    "summary": "Method GetUtcNow | Edit this page View Source GetUtcNow() Gets the current UTC date and time. Declaration DateTime GetUtcNow() Returns Type Description DateTime The current UTC date and time."
+  },
+  "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.html": {
+    "href": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.html",
+    "title": "Interface IDateTimeProvider",
+    "summary": "Interface IDateTimeProvider Provides a testable version of DateTime. Namespace: Eraware.Modules.MyModule.Providers Assembly: Eraware.Modules.MyModule.dll Syntax public interface IDateTimeProvider Methods Name Description GetUtcNow() Gets the current UTC date and time."
+  },
+  "api/Eraware.Modules.MyModule.Providers.html": {
+    "href": "api/Eraware.Modules.MyModule.Providers.html",
+    "title": "Namespace Eraware.Modules.MyModule.Providers",
+    "summary": "Namespace Eraware.Modules.MyModule.Providers Interfaces IDateTimeProvider Provides a testable version of DateTime."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description.html",
+    "title": "Property Description",
+    "summary": "Property Description | Edit this page View Source Description Gets or sets the description of the item. Declaration public string Description { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name.html",
+    "title": "Property Name",
+    "summary": "Property Name | Edit this page View Source Name Gets or sets the name for the item. Declaration public string Name { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.html",
+    "title": "Class CreateItemDTO",
+    "summary": "Class CreateItemDTO Data transfer object to create a new item. Inheritance object CreateItemDTO UpdateItemDTO Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class CreateItemDTO Properties Name Description Description Gets or sets the description of the item. Name Gets or sets the name for the item."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.-ctor.html",
+    "title": "Constructor CreateItemDtoValidator",
+    "summary": "Constructor CreateItemDtoValidator | Edit this page View Source CreateItemDtoValidator(ILocalizationService) Initializes a new instance of the CreateItemDtoValidator class. Declaration public CreateItemDtoValidator(ILocalizationService localizationService) Parameters Type Name Description ILocalizationService localizationService The localization service."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.html",
+    "title": "Class CreateItemDtoValidator",
+    "summary": "Class CreateItemDtoValidator Validates the CreateItemDTO. Inheritance object AbstractValidator<CreateItemDTO> CreateItemDtoValidator Implements IValidator<CreateItemDTO> IValidator IEnumerable<IValidationRule> IEnumerable Inherited Members AbstractValidator<CreateItemDTO>.Validate(CreateItemDTO) AbstractValidator<CreateItemDTO>.ValidateAsync(CreateItemDTO, CancellationToken) AbstractValidator<CreateItemDTO>.Validate(ValidationContext<CreateItemDTO>) AbstractValidator<CreateItemDTO>.ValidateAsync(ValidationContext<CreateItemDTO>, CancellationToken) AbstractValidator<CreateItemDTO>.CreateDescriptor() AbstractValidator<CreateItemDTO>.RuleFor<TProperty>(Expression<Func<CreateItemDTO, TProperty>>) AbstractValidator<CreateItemDTO>.Transform<TProperty, TTransformed>(Expression<Func<CreateItemDTO, TProperty>>, Func<TProperty, TTransformed>) AbstractValidator<CreateItemDTO>.Transform<TProperty, TTransformed>(Expression<Func<CreateItemDTO, TProperty>>, Func<CreateItemDTO, TProperty, TTransformed>) AbstractValidator<CreateItemDTO>.RuleForEach<TElement>(Expression<Func<CreateItemDTO, IEnumerable<TElement>>>) AbstractValidator<CreateItemDTO>.TransformForEach<TElement, TTransformed>(Expression<Func<CreateItemDTO, IEnumerable<TElement>>>, Func<TElement, TTransformed>) AbstractValidator<CreateItemDTO>.TransformForEach<TElement, TTransformed>(Expression<Func<CreateItemDTO, IEnumerable<TElement>>>, Func<CreateItemDTO, TElement, TTransformed>) AbstractValidator<CreateItemDTO>.RuleSet(string, Action) AbstractValidator<CreateItemDTO>.When(Func<CreateItemDTO, bool>, Action) AbstractValidator<CreateItemDTO>.When(Func<CreateItemDTO, ValidationContext<CreateItemDTO>, bool>, Action) AbstractValidator<CreateItemDTO>.Unless(Func<CreateItemDTO, bool>, Action) AbstractValidator<CreateItemDTO>.Unless(Func<CreateItemDTO, ValidationContext<CreateItemDTO>, bool>, Action) AbstractValidator<CreateItemDTO>.WhenAsync(Func<CreateItemDTO, CancellationToken, Task<bool>>, Action) AbstractValidator<CreateItemDTO>.WhenAsync(Func<CreateItemDTO, ValidationContext<CreateItemDTO>, CancellationToken, Task<bool>>, Action) AbstractValidator<CreateItemDTO>.UnlessAsync(Func<CreateItemDTO, CancellationToken, Task<bool>>, Action) AbstractValidator<CreateItemDTO>.UnlessAsync(Func<CreateItemDTO, ValidationContext<CreateItemDTO>, CancellationToken, Task<bool>>, Action) AbstractValidator<CreateItemDTO>.Include(IValidator<CreateItemDTO>) AbstractValidator<CreateItemDTO>.Include<TValidator>(Func<CreateItemDTO, TValidator>) AbstractValidator<CreateItemDTO>.GetEnumerator() AbstractValidator<CreateItemDTO>.EnsureInstanceNotNull(object) AbstractValidator<CreateItemDTO>.PreValidate(ValidationContext<CreateItemDTO>, ValidationResult) AbstractValidator<CreateItemDTO>.RaiseValidationException(ValidationContext<CreateItemDTO>, ValidationResult) AbstractValidator<CreateItemDTO>.OnRuleAdded(IValidationRule<CreateItemDTO>) AbstractValidator<CreateItemDTO>.CascadeMode AbstractValidator<CreateItemDTO>.ClassLevelCascadeMode AbstractValidator<CreateItemDTO>.RuleLevelCascadeMode object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class CreateItemDtoValidator : AbstractValidator<CreateItemDTO>, IValidator<CreateItemDTO>, IValidator, IEnumerable<IValidationRule>, IEnumerable Constructors Name Description CreateItemDtoValidator(ILocalizationService) Initializes a new instance of the CreateItemDtoValidator class."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending.html",
+    "title": "Property Descending",
+    "summary": "Property Descending | Edit this page View Source Descending Gets or sets a value indicating whether the items should be ordered descending. Declaration public bool Descending { get; set; } Property Value Type Description bool"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page.html",
+    "title": "Property Page",
+    "summary": "Property Page | Edit this page View Source Page Gets or sets the page number to get. Declaration public int Page { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize.html",
+    "title": "Property PageSize",
+    "summary": "Property PageSize | Edit this page View Source PageSize Gets or sets the size of pages. Declaration public int PageSize { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query.html",
+    "title": "Property Query",
+    "summary": "Property Query | Edit this page View Source Query Gets or sets the optional search query. Declaration public string Query { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.html",
+    "title": "Class GetItemsPageDTO",
+    "summary": "Class GetItemsPageDTO The data object to request a paged list of items. Inheritance object GetItemsPageDTO Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class GetItemsPageDTO Properties Name Description Descending Gets or sets a value indicating whether the items should be ordered descending. Page Gets or sets the page number to get. PageSize Gets or sets the size of pages. Query Gets or sets the optional search query."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync.html",
+    "title": "Method CreateItemAsync",
+    "summary": "Method CreateItemAsync | Edit this page View Source CreateItemAsync(CreateItemDTO, int, CancellationToken) Creates a new item. Declaration Task<OneOf<Success<ItemViewModel>, Error<List<ValidationFailure>>>> CreateItemAsync(CreateItemDTO item, int userId, CancellationToken token = default) Parameters Type Name Description CreateItemDTO item The item to create. int userId The acting user id. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<OneOf<Success<ItemViewModel>, Error<List<ValidationFailure>>>> Either a success of Item of an error of string."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync.html",
+    "title": "Method DeleteItemAsync",
+    "summary": "Method DeleteItemAsync | Edit this page View Source DeleteItemAsync(int) Deletes an item. Declaration Task DeleteItemAsync(int itemId) Parameters Type Name Description int itemId The id of the item to delete. Returns Type Description Task An awaitable task."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync.html",
+    "title": "Method GetItemsPageAsync",
+    "summary": "Method GetItemsPageAsync | Edit this page View Source GetItemsPageAsync(string, int, int, bool) Gets a list of items paged. Declaration Task<ItemsPageViewModel> GetItemsPageAsync(string query, int page = 1, int pageSize = 10, bool descending = false) Parameters Type Name Description string query An optional search query. int page The page to get. int pageSize How many items are including per page. bool descending If true, sorts the results in descending order, if false in ascending order. Returns Type Description Task<ItemsPageViewModel> ItemsPageViewModel."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync.html",
+    "title": "Method UpdateItemAsync",
+    "summary": "Method UpdateItemAsync | Edit this page View Source UpdateItemAsync(UpdateItemDTO, int, CancellationToken) Updates an existing item. Declaration Task<OneOf<Success, Error<List<ValidationFailure>>>> UpdateItemAsync(UpdateItemDTO item, int userId, CancellationToken token = default) Parameters Type Name Description UpdateItemDTO item The item to edit with its new details. int userId The id of the acting DNN user. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<OneOf<Success, Error<List<ValidationFailure>>>> An awaitable task."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.IItemService.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.IItemService.html",
+    "title": "Interface IItemService",
+    "summary": "Interface IItemService Provides services to manage items. Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public interface IItemService Methods Name Description CreateItemAsync(CreateItemDTO, int, CancellationToken) Creates a new item. DeleteItemAsync(int) Deletes an item. GetItemsPageAsync(string, int, int, bool) Gets a list of items paged. UpdateItemAsync(UpdateItemDTO, int, CancellationToken) Updates an existing item."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.-ctor.html",
+    "title": "Constructor ItemService",
+    "summary": "Constructor ItemService | Edit this page View Source ItemService(IItemRepository, IValidator<CreateItemDTO>, IValidator<UpdateItemDTO>) Initializes a new instance of the ItemService class. Declaration public ItemService(IItemRepository itemRepository, IValidator<CreateItemDTO> createItemDtoValidator, IValidator<UpdateItemDTO> updateItemDtoValidator) Parameters Type Name Description IItemRepository itemRepository The items repository. IValidator<CreateItemDTO> createItemDtoValidator The validator for the CreateItemDTO entity. IValidator<UpdateItemDTO> updateItemDtoValidator The validator for the UpdateItemDTO entity."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync.html",
+    "title": "Method CreateItemAsync",
+    "summary": "Method CreateItemAsync | Edit this page View Source CreateItemAsync(CreateItemDTO, int, CancellationToken) Creates a new item. Declaration public Task<OneOf<Success<ItemViewModel>, Error<List<ValidationFailure>>>> CreateItemAsync(CreateItemDTO item, int userId, CancellationToken token = default) Parameters Type Name Description CreateItemDTO item The item to create. int userId The acting user id. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<OneOf<Success<ItemViewModel>, Error<List<ValidationFailure>>>> Either a success of Item of an error of string. Implements IItemService.CreateItemAsync(CreateItemDTO, int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync.html",
+    "title": "Method DeleteItemAsync",
+    "summary": "Method DeleteItemAsync | Edit this page View Source DeleteItemAsync(int) Deletes an item. Declaration public Task DeleteItemAsync(int itemId) Parameters Type Name Description int itemId The id of the item to delete. Returns Type Description Task An awaitable task. Implements IItemService.DeleteItemAsync(int)"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync.html",
+    "title": "Method GetItemsPageAsync",
+    "summary": "Method GetItemsPageAsync | Edit this page View Source GetItemsPageAsync(string, int, int, bool) Gets a list of items paged. Declaration public Task<ItemsPageViewModel> GetItemsPageAsync(string query, int page = 1, int pageSize = 10, bool descending = false) Parameters Type Name Description string query An optional search query. int page The page to get. int pageSize How many items are including per page. bool descending If true, sorts the results in descending order, if false in ascending order. Returns Type Description Task<ItemsPageViewModel> ItemsPageViewModel. Implements IItemService.GetItemsPageAsync(string, int, int, bool)"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync.html",
+    "title": "Method UpdateItemAsync",
+    "summary": "Method UpdateItemAsync | Edit this page View Source UpdateItemAsync(UpdateItemDTO, int, CancellationToken) Updates an existing item. Declaration public Task<OneOf<Success, Error<List<ValidationFailure>>>> UpdateItemAsync(UpdateItemDTO dto, int userId, CancellationToken token = default) Parameters Type Name Description UpdateItemDTO dto int userId The id of the acting DNN user. CancellationToken token A token that can be used to abort the request early. Returns Type Description Task<OneOf<Success, Error<List<ValidationFailure>>>> An awaitable task. Implements IItemService.UpdateItemAsync(UpdateItemDTO, int, CancellationToken)"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemService.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemService.html",
+    "title": "Class ItemService",
+    "summary": "Class ItemService Provides services to manage items. Inheritance object ItemService Implements IItemService Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class ItemService : IItemService Constructors Name Description ItemService(IItemRepository, IValidator<CreateItemDTO>, IValidator<UpdateItemDTO>) Initializes a new instance of the ItemService class. Methods Name Description CreateItemAsync(CreateItemDTO, int, CancellationToken) Creates a new item. DeleteItemAsync(int) Deletes an item. GetItemsPageAsync(string, int, int, bool) Gets a list of items paged. UpdateItemAsync(UpdateItemDTO, int, CancellationToken) Updates an existing item."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html",
+    "title": "Constructor ItemViewModel",
+    "summary": "Constructor ItemViewModel | Edit this page View Source ItemViewModel() Initializes a new instance of the ItemViewModel class. Declaration public ItemViewModel() | Edit this page View Source ItemViewModel(Item) Initializes a new instance of the ItemViewModel class. Declaration public ItemViewModel(Item item) Parameters Type Name Description Item item An Item entity."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description.html",
+    "title": "Property Description",
+    "summary": "Property Description | Edit this page View Source Description Gets or sets the item description. Declaration public string Description { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id.html",
+    "title": "Property Id",
+    "summary": "Property Id | Edit this page View Source Id Gets or sets the id of the item. Declaration public int Id { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name.html",
+    "title": "Property Name",
+    "summary": "Property Name | Edit this page View Source Name Gets or sets the name of the item. Declaration [Required] public string Name { get; set; } Property Value Type Description string"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.html",
+    "title": "Class ItemViewModel",
+    "summary": "Class ItemViewModel Represents the basic information about an item. Inheritance object ItemViewModel Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class ItemViewModel Constructors Name Description ItemViewModel() Initializes a new instance of the ItemViewModel class. ItemViewModel(Item) Initializes a new instance of the ItemViewModel class. Properties Name Description Description Gets or sets the item description. Id Gets or sets the id of the item. Name Gets or sets the name of the item."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items.html",
+    "title": "Property Items",
+    "summary": "Property Items | Edit this page View Source Items Gets or sets a list of items for this page. Declaration public List<ItemViewModel> Items { get; set; } Property Value Type Description List<ItemViewModel>"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page.html",
+    "title": "Property Page",
+    "summary": "Property Page | Edit this page View Source Page Gets or sets the current page number. Declaration public int Page { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount.html",
+    "title": "Property PageCount",
+    "summary": "Property PageCount | Edit this page View Source PageCount Gets or sets the total amount of pages available. Declaration public int PageCount { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount.html",
+    "title": "Property ResultCount",
+    "summary": "Property ResultCount | Edit this page View Source ResultCount Gets or sets the total amount of results found. Declaration public int ResultCount { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.html",
+    "title": "Class ItemsPageViewModel",
+    "summary": "Class ItemsPageViewModel Represents a page of items, Item. Inheritance object ItemsPageViewModel Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class ItemsPageViewModel Properties Name Description Items Gets or sets a list of items for this page. Page Gets or sets the current page number. PageCount Gets or sets the total amount of pages available. ResultCount Gets or sets the total amount of results found."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id.html",
+    "title": "Property Id",
+    "summary": "Property Id | Edit this page View Source Id Gets or sets the id of the item to edit. Declaration public int Id { get; set; } Property Value Type Description int"
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.html",
+    "title": "Class UpdateItemDTO",
+    "summary": "Class UpdateItemDTO Data transfer object used to update an item. Inheritance object CreateItemDTO UpdateItemDTO Inherited Members CreateItemDTO.Name CreateItemDTO.Description object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Items Assembly: Eraware.Modules.MyModule.dll Syntax public class UpdateItemDTO : CreateItemDTO Properties Name Description Id Gets or sets the id of the item to edit."
+  },
+  "api/Eraware.Modules.MyModule.Services.Items.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Items.html",
+    "title": "Namespace Eraware.Modules.MyModule.Services.Items",
+    "summary": "Namespace Eraware.Modules.MyModule.Services.Items Classes CreateItemDTO Data transfer object to create a new item. CreateItemDtoValidator Validates the CreateItemDTO. GetItemsPageDTO The data object to request a paged list of items. ItemService Provides services to manage items. ItemViewModel Represents the basic information about an item. ItemsPageViewModel Represents a page of items, Item. UpdateItemDTO Data transfer object used to update an item. Interfaces IItemService Provides services to manage items."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel.html",
+    "title": "Property ViewModel",
+    "summary": "Property ViewModel | Edit this page View Source ViewModel Gets viewmodel that strongly types all resource keys. Declaration LocalizationViewModel ViewModel { get; } Property Value Type Description LocalizationViewModel"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.html",
+    "title": "Interface ILocalizationService",
+    "summary": "Interface ILocalizationService Provides strongly typed localization services for this module. Namespace: Eraware.Modules.MyModule.Services.Localization Assembly: Eraware.Modules.MyModule.dll Syntax public interface ILocalizationService Properties Name Description ViewModel Gets viewmodel that strongly types all resource keys."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.-ctor.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.-ctor.html",
+    "title": "Constructor LocalizationService",
+    "summary": "Constructor LocalizationService | Edit this page View Source LocalizationService(ILocalizationProvider) Initializes a new instance of the LocalizationService class. Declaration public LocalizationService(ILocalizationProvider localizationProvider) Parameters Type Name Description ILocalizationProvider localizationProvider"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel.html",
+    "title": "Property ViewModel",
+    "summary": "Property ViewModel | Edit this page View Source ViewModel A viewmodel that strongly types all resource keys. Declaration public LocalizationViewModel ViewModel { get; } Property Value Type Description LocalizationViewModel Implements ILocalizationService.ViewModel"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.html",
+    "title": "Class LocalizationService",
+    "summary": "Class LocalizationService Provides strongly typed localization services for this module. Inheritance object LocalizationService Implements ILocalizationService Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Localization Assembly: Eraware.Modules.MyModule.dll Syntax public class LocalizationService : ILocalizationService Constructors Name Description LocalizationService(ILocalizationProvider) Initializes a new instance of the LocalizationService class. Properties Name Description ViewModel A viewmodel that strongly types all resource keys."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation.html",
+    "title": "Property ModelValidation",
+    "summary": "Property ModelValidation | Edit this page View Source ModelValidation Localized strings present the ModelValidation resources. Declaration public LocalizationViewModel.ModelValidationInfo ModelValidation { get; set; } Property Value Type Description LocalizationViewModel.ModelValidationInfo"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero.html",
+    "title": "Property IdGreaterThanZero",
+    "summary": "Property IdGreaterThanZero | Edit this page View Source IdGreaterThanZero Gets or sets the IdGreaterThanZero localized text. Declaration public string IdGreaterThanZero { get; set; } Property Value Type Description string Examples The Id must be an integer bigger than 0"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired.html",
+    "title": "Property NameRequired",
+    "summary": "Property NameRequired | Edit this page View Source NameRequired Gets or sets the NameRequired localized text. Declaration public string NameRequired { get; set; } Property Value Type Description string Examples The name is required"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.html",
+    "title": "Class LocalizationViewModel.ModelValidationInfo",
+    "summary": "Class LocalizationViewModel.ModelValidationInfo Localized strings for the ModelValidation resources. Inheritance object LocalizationViewModel.ModelValidationInfo Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Localization Assembly: Eraware.Modules.MyModule.dll Syntax public class LocalizationViewModel.ModelValidationInfo Properties Name Description IdGreaterThanZero Gets or sets the IdGreaterThanZero localized text. NameRequired Gets or sets the NameRequired localized text."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI.html",
+    "title": "Property UI",
+    "summary": "Property UI | Edit this page View Source UI Localized strings present the UI resources. Declaration public LocalizationViewModel.UIInfo UI { get; set; } Property Value Type Description LocalizationViewModel.UIInfo"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem.html",
+    "title": "Property AddItem",
+    "summary": "Property AddItem | Edit this page View Source AddItem Gets or sets the AddItem localized text. Declaration public string AddItem { get; set; } Property Value Type Description string Examples Add Item"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel.html",
+    "title": "Property Cancel",
+    "summary": "Property Cancel | Edit this page View Source Cancel Gets or sets the Cancel localized text. Declaration public string Cancel { get; set; } Property Value Type Description string Examples Cancel"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create.html",
+    "title": "Property Create",
+    "summary": "Property Create | Edit this page View Source Create Gets or sets the Create localized text. Declaration public string Create { get; set; } Property Value Type Description string Examples Create"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete.html",
+    "title": "Property Delete",
+    "summary": "Property Delete | Edit this page View Source Delete Gets or sets the Delete localized text. Declaration public string Delete { get; set; } Property Value Type Description string Examples Delete"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm.html",
+    "title": "Property DeleteItemConfirm",
+    "summary": "Property DeleteItemConfirm | Edit this page View Source DeleteItemConfirm Gets or sets the DeleteItemConfirm localized text. Declaration public string DeleteItemConfirm { get; set; } Property Value Type Description string Examples Are you sure you want to delete this item?"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description.html",
+    "title": "Property Description",
+    "summary": "Property Description | Edit this page View Source Description Gets or sets the Description localized text. Declaration public string Description { get; set; } Property Value Type Description string Examples Description"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit.html",
+    "title": "Property Edit",
+    "summary": "Property Edit | Edit this page View Source Edit Gets or sets the Edit localized text. Declaration public string Edit { get; set; } Property Value Type Description string Examples Edit"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore.html",
+    "title": "Property LoadMore",
+    "summary": "Property LoadMore | Edit this page View Source LoadMore Gets or sets the LoadMore localized text. Declaration public string LoadMore { get; set; } Property Value Type Description string Examples Load More"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name.html",
+    "title": "Property Name",
+    "summary": "Property Name | Edit this page View Source Name Gets or sets the Name localized text. Declaration public string Name { get; set; } Property Value Type Description string Examples Name"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No.html",
+    "title": "Property No",
+    "summary": "Property No | Edit this page View Source No Gets or sets the No localized text. Declaration public string No { get; set; } Property Value Type Description string Examples No"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save.html",
+    "title": "Property Save",
+    "summary": "Property Save | Edit this page View Source Save Gets or sets the Save localized text. Declaration public string Save { get; set; } Property Value Type Description string Examples Save"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder.html",
+    "title": "Property SearchPlaceholder",
+    "summary": "Property SearchPlaceholder | Edit this page View Source SearchPlaceholder Gets or sets the SearchPlaceholder localized text. Declaration public string SearchPlaceholder { get; set; } Property Value Type Description string Examples Search"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems.html",
+    "title": "Property ShownItems",
+    "summary": "Property ShownItems | Edit this page View Source ShownItems Gets or sets the ShownItems localized text. Declaration public string ShownItems { get; set; } Property Value Type Description string Examples Showing {0} of {1} items."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes.html",
+    "title": "Property Yes",
+    "summary": "Property Yes | Edit this page View Source Yes Gets or sets the Yes localized text. Declaration public string Yes { get; set; } Property Value Type Description string Examples Yes"
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.html",
+    "title": "Class LocalizationViewModel.UIInfo",
+    "summary": "Class LocalizationViewModel.UIInfo Localized strings for the UI resources. Inheritance object LocalizationViewModel.UIInfo Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Localization Assembly: Eraware.Modules.MyModule.dll Syntax public class LocalizationViewModel.UIInfo Properties Name Description AddItem Gets or sets the AddItem localized text. Cancel Gets or sets the Cancel localized text. Create Gets or sets the Create localized text. Delete Gets or sets the Delete localized text. DeleteItemConfirm Gets or sets the DeleteItemConfirm localized text. Description Gets or sets the Description localized text. Edit Gets or sets the Edit localized text. LoadMore Gets or sets the LoadMore localized text. Name Gets or sets the Name localized text. No Gets or sets the No localized text. Save Gets or sets the Save localized text. SearchPlaceholder Gets or sets the SearchPlaceholder localized text. ShownItems Gets or sets the ShownItems localized text. Yes Gets or sets the Yes localized text."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.html",
+    "title": "Class LocalizationViewModel",
+    "summary": "Class LocalizationViewModel A viewmodel that exposes all resource keys in strong types. Inheritance object LocalizationViewModel Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule.Services.Localization Assembly: Eraware.Modules.MyModule.dll Syntax public class LocalizationViewModel Properties Name Description ModelValidation Localized strings present the ModelValidation resources. UI Localized strings present the UI resources."
+  },
+  "api/Eraware.Modules.MyModule.Services.Localization.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.Localization.html",
+    "title": "Namespace Eraware.Modules.MyModule.Services.Localization",
+    "summary": "Namespace Eraware.Modules.MyModule.Services.Localization Classes LocalizationService Provides strongly typed localization services for this module. LocalizationViewModel A viewmodel that exposes all resource keys in strong types. LocalizationViewModel.ModelValidationInfo Localized strings for the ModelValidation resources. LocalizationViewModel.UIInfo Localized strings for the UI resources. Interfaces ILocalizationService Provides strongly typed localization services for this module."
+  },
+  "api/Eraware.Modules.MyModule.Services.html": {
+    "href": "api/Eraware.Modules.MyModule.Services.html",
+    "title": "Namespace Eraware.Modules.MyModule.Services",
+    "summary": "Namespace Eraware.Modules.MyModule.Services Namespaces Eraware.Modules.MyModule.Services.Items Eraware.Modules.MyModule.Services.Localization"
+  },
+  "api/Eraware.Modules.MyModule.Startup.ConfigureServices.html": {
+    "href": "api/Eraware.Modules.MyModule.Startup.ConfigureServices.html",
+    "title": "Method ConfigureServices",
+    "summary": "Method ConfigureServices | Edit this page View Source ConfigureServices(IServiceCollection) Registers the dependencies for injection. Declaration public void ConfigureServices(IServiceCollection services) Parameters Type Name Description IServiceCollection services The services collection. Implements IDnnStartup.ConfigureServices(IServiceCollection)"
+  },
+  "api/Eraware.Modules.MyModule.Startup.html": {
+    "href": "api/Eraware.Modules.MyModule.Startup.html",
+    "title": "Class Startup",
+    "summary": "Class Startup Implements the IDnnStartup interface to run at application start. Inheritance object Startup Implements IDnnStartup Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Namespace: Eraware.Modules.MyModule Assembly: Eraware.Modules.MyModule.dll Syntax public class Startup : IDnnStartup Methods Name Description ConfigureServices(IServiceCollection) Registers the dependencies for injection."
+  },
+  "api/Eraware.Modules.MyModule.html": {
+    "href": "api/Eraware.Modules.MyModule.html",
+    "title": "Namespace Eraware.Modules.MyModule",
+    "summary": "Namespace Eraware.Modules.MyModule Namespaces Eraware.Modules.MyModule.Common Eraware.Modules.MyModule.Controllers Eraware.Modules.MyModule.Data Eraware.Modules.MyModule.Providers Eraware.Modules.MyModule.Services Classes Startup Implements the IDnnStartup interface to run at application start."
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "Backend API documentation",
+    "summary": "Backend API documentation This section documents the APIs available in the backend (c#) code. Please expand the namespaces to navigate through the APIs."
+  },
+  "articles/git.html": {
+    "href": "articles/git.html",
+    "title": "Git support",
+    "summary": "Git support To gain the full benefits of this module template it is recommended to set it up as a git repository and to push it to Github. Note Git and Github are 2 different things. Git is a version control system that works locally and supports having remotes. Github is one of these possible remotes. Create a git repository Push and create new repository Tip You can do the next steps using any git client (even the command line), however in this tutorial we'll be using Github Extensions for VisualStudio. If you did not select this option when you installed VisualStudio you can download this extension at the link above. Create you repository by heading to View > Git Changes, the Git Changes side bar menu will appear and you can press on Push to have your repository created. Note You may be asked to login if it's the first time you are using Github integration in Visual Studio. If you are asked to login, it is recommended to create a Personal Access Token instead of using your login/password. Also the Github automations support both private and public repositories. First CI Build In a few minutes you should see that github actinos has run your first build automatically. This first build will fail because the repository is new and actions don't yet have permissions to write to the repository. In your repository settings, go to 'Actions' then 'Workflows' and enable \"Read/Write\" access. Automated releases When you feel you are ready for a beta release, you can create a release branch. The branch name should include the version number you want, such as release/0.1.0. A few minutes later if you navigate to your repository on Github, you will notice there is a draft release for v0.1.0. It has auto-generated release notes wrote from the title of all the PRs that went into a milestone of the save version. It also has the fully packaged module ready for install from testers. Each additional push or merge into that release branch will produce a new beta release for you automatically. When you are ready for production, you can simply merge that release branch into main or master and it will produce a final release for you (non-beta). If you had any last minute fixes on the release branch that don't exist in develop don't forget to merge that branch into develop too. Automatic Versioning The template uses GitVersion and the GitFlow branching strategy in order to manage versions and releases. This means: The main or master branch contains the code from the latest published production release. Only merge commits comming from a release or hotfix branch should be merged to it. Each push to this branch will produce a draft release. The develop branch contains the latest development code (alpha). Merging or pushing to this branch does not produce any release but you can get the (alpha) build from the branch build status badge. Also any pull request to it builds the project and you also have the PR build artifact available in the action status. release branches are used to prepare the next release, when a release/1.0.0 branch is created, a few minutes after, you will have an unpublished release called v1.0.0-beta-1. For each further merge or push to the release/1.0.0 branch, you will get the same version but a new beta sequential member like v1.0.0-beta-2. When the release is ready for production, you can merge the release/1.0.0 into the main or master branch (usually through a pull request) and it will produce a draft release called v1.0.0 (no longer beta). Tip By default when you initially pushed the first commit to github earlier, it created only the main or master branch. You should on github create a develop branch from it and then pull that branch before any further development. Automatic Release Notes Release notes for each of those versions are automatically generated from Pull Request (PR) titles for which the milestone matches the released version. The notes are also grouped by label. Mergeable Mergeable is a Github extension that enforces some rules over pull requests and/or issues. It is pre-configured in this template to enforce that every pull request has a title, description, label and milestone. Dependabot Dependabot is also pre-setup, it will look at the project dependencies and create automated pull requests when it detects a new version of those dependencies. Tip Although Dependabot is very useful in warning you about new versions of dependencies and automatically running a built, you should inspect each of those PRs to make sure you do want to accept them. For instance, this template uses Entity Framework and this dll is distributed with the module package. However it's version needs to be declared in the dnn manifest and dependabot is not aware of this. Also, Dnn has some dependencies like Newtonsoft.Json and if you used a different version than Dnn, you may run into some issues which will be hard to catch by unit tests. Trying it out Let's make sure we have a develop branch on github and we pull it locally. To do this, we will create the develop branch on github and set it as our default branch. At the same time while we are there, we can setup some branch protection rules to prevent merging PRs that don't build or fail tests, etc. Then we will locally fetch and then pull that branch. Now let's create a new local branch to make a small change that we will then submit as a pull request for. We will push that branch and create a pull request for it on github. Creating a pull request will fire up a build and fire up a set of tests too to validate the change does not break anything. When the build suceeds, we will merge that pull request. Now we will create a 1.0.0-beta release simply by creating a release/1.0.0 branch (it will take a few minutes to create the release). Note that this time because we had a PR with a milestone, we get automatic release notes generated for us. Now let's assume this beta got properly tested and we want to produce the final the final 1.0.0 release, we simply need to merge the release/1.0.0 branch into our main or master branch, we will do so using a pull request and we'll do a merge commit. Documentation This template has both support for writing your own documentation and also automating documentation from code comments automatically to keep documentation in always in sync with the code. Github allows having a free documentation website as part of every repository. You may not have realized it yet but it's already done as part of our initial commit. We simply have to return to github repository settings and set the source for that site. The code can be a folder on any branch or a special branch. Here we will select the docs folder on the branch of our choice. Tip Selecting the main or master branch will mean that your published documentation will always be in sync with the latest published official release (non-beta). If you want your documentation to be in sync with the latest changes, you can select the develop branch or if you have long standing betas and you want the documentation to reflect it, you can select a release/x.x.x branch. Warning Do not select a theme in the settings, this is for Jekyll sites which we are not using. Also, it may take Github a few minutes to publish your site. What you are seeing in Visual Studio now is only some snippets to get you started until the full documentation is published, now that this is done, you can view the full documentation at https://valadas.github.io/MyTestModule"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Getting Started",
+    "summary": "Getting Started Welcome to you new module template! First build Before you start This module template makes a few assumptions about your environment, make sure you have the following installed: Latest version of Visual Studio, and updates (Free community edition is fine) Latest version of .NET Core SDK (LST) A test site that uses the latest version of DNN (you can target older versions but out-of-the-box this template is set to the latest) The solution and the project are expected to be in the same folder. If you move the project to a different folder, you will need to update the paths in the Build.cs file. Package your module Build tasks are placed in the launch profiles menu in Visual Studio, click the debug button with the Package profile selected. This will fire up a console application to run the module build and will create a Dnn extension package in the website under the install\\modules folder. Don't worry about opening up that folder, see next step. Note If for some reason you do not see the Package target, go to the Solution Explorer and ensure that the build project is set as the startup project for the solution. Note The build script is simply a console application in the build project, it uses Nuke to help with utilities. You can later customize that process simply by editing the Build.cs file. Install your module Now we need to install the module in Dnn to see it in action. Simply log in as a SuperUser (host) and navigate to Extensions / Available Extensions to install your new module. Then create a test page and put the module on it. Note The module javascript fires up on page load, so after dropping your module you need to refresh the page to see it work. Congratulations, you have a working module! Now let's make it a git repository. Learn How"
+  },
+  "articles/project-architecture.html": {
+    "href": "articles/project-architecture.html",
+    "title": "Project Architecture",
+    "summary": "Project Architecture SPA - Web API This type of Dnn module is commonly knows as a SPA (Single Page Application) module. This common naming does not really reflect correctly the module type. In fact it uses the Dnn HtmlModule pipeline. This means the server is not responsible at all for rendering the frontend, it simply serves static html/css/js files to the frontend. Note One small exception to this statement is that Dnn will replace some known tokens in your html view to inject Dnn specific things like the ModuleId for instance. In order to interact with the server (backend), the frontend will use a REST API to call a backend controller. It can GET some information or POST to perform some action. For security and performance reasons, we may want to have more or less information passed either when we GET or when we POST data. The graph below explains the various objects used to hold this data. An entity represents one database table row. IEntity is an interface that describes properties that any entity will have. It exists so we can later have Generic implementations of classes. BaseEntity is a base class. Since interfaces cannot have code, the BaseEntity is used to include code that should run for every entity no matter it's type. For instance when we create a new entity, we inject automatically the CreatedAt and UpdatedAt to the current date and time, we also initialize the CreatedByUserId and UpdatedByUserId to -1 by default. Item this is one specific entity, in our simple case here an Item simply has a Name and Description Request When we request the system to create an item, we do not have to pass a full Item as the BaseEntity already handles that for use for any type of entity. In some cases like for the CreatedByUserId, for security reasons, we don't want to user to tell use his userId from the frontend, we need Dnn to tell us for sure who is logged in. To handle that scenario, the minimum amount of data to create a new Item is just the Name and Desciption so we use a Data Transfer Object (DTO) specific for that operation called CreateItemDTO. It's name matches the operation verb, note here we have no Id, because we are creating a new one. If you implement an update method, you may want to create an UpdateItemDTO that will have an Id too. Response Similarly, we may not want to send all the information about an entity back to the frontend. Let's suppose we have a public list of Items, we probably don't want to expose the CreatedByUserId for security reasons and the CreatedAt because we may not display it. For this scenario we have a ItemViewModel that only has the Id, Name and Description properties. Note Notice we have a constructor here that takes an Item to quickly create a new ItemViewModel from an Item classDiagram class CreateItemDTO CreateItemDTO : +String Name CreateItemDTO : +String Description class IEntity IEntity : +Int Id IEntity : +DateTime CreatedAt IEntity : +Int CreatedByUserId IEntity : +DateTime UpdatedAt IEntity : +Int UpdatedByUserId class BaseEntity BaseEntity : +Int Id BaseEntity : +DateTime CreatedAt BaseEntity : +Int CreatedByUserId BaseEntity : +DateTime UpdatedAt BaseEntity : +Int UpdatedByUserId class Item Item : String Name Item : String Description BaseEntity <|-- Item IEntity <|-- BaseEntity class ItemViewModel ItemViewModel : +Int Id ItemViewModel : +String Name ItemViewModel : +String Description ItemViewModel : +ItemViewModel(Item item) ItemViewModel Process Flow The next graph explains the process flow of creating an item, from the frontend, we POST a CreateItemDTO as json with a Name and a Description only; because we are creating a new item, we don't know which id it will get. The backend has all the logic to save the item and we get back an ItemViewModel as the response which now has an Id on top of the provided (and maybe sanitized or trimmed, depending on your business logic) Name and Description. UI is responsible to render the user interface and connect buttons and other HTML elements to handlers. ItemClient is a frontend (typescript) class, it is responsible only to manage communications between the Client and Server, it is not concerned with UI tasks. ItemController is our backend entry point, it is responsible for handling requests and responses only. ItemService is our business logic and handles our specific business rules only. Repository is a generic repository, it is responsible to handle data storage and retrieval only. It works with any IEntity, in this specific case it is a Repository<Item> so it does so for Items, but it is reusable with any other entity. graph TB UI -->|Click Create| ItemClient ItemClient -->|Update List| UI ItemClient[FrontEnd<br/>ItemClient] -->|CreateItemDTO as JSON<br />Name and Description| ItemController[Backend<br/>ItemController] ItemController -->|CreateItemDTO<br/>UserId| ItemService ItemService -->|Item| Repository[Repository<Item>] ItemService -->|Validate| Validator[IValidator<CreateItemDto>] Validator --> ItemService Repository -->|Item| DataContext[DataContext<br/>Entity Framework] DataContext -->|SQL INSERT ...| Database Database -->|Table row| DataContext DataContext -->|Item| Repository Repository -->|Item| ItemService ItemService -->|ItemViewModel| ItemController ItemController -->|ItemViewModel as JSON<br/>Id, Name and Description| ItemClient Sequence Frontend <-> Backend The below diagram explains the interactions between the frontend and the backend. It shows the different objects being passed during the request and response phases. We will look into each of these classes in more details later. sequenceDiagram ItemClient ->> ItemController: POST<br/>/API/MyModule/Item/CreateItem<br/>{ \"Name\": \"First Item\",<br/>\"Description\": \"This is the first item\" } ItemController ->> ItemService: CreateItem(<br/>CreateItemDTO item = {<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"},<br/>UserId userId = 123) ItemService ->> ItemController: returns<br/>ItemViewModel item = {<br/>Id = 10,<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"} ItemController ->> ItemClient: {<br/>\"Id\": 10,<br/>\"Name: \"First Item\",<br/>\"Description\": \"This is the first item\"<br/>} Our backend code The below diagram explains the backend code that is part of the module. We will see each class in more details later, but this sequence diagram explain in a bit more details how the data flows. As we saw earlier, to create an item, the minimum information needed is only the Name and Description. The ItemController adds the acting user id and asks the ItemService to create the item. The IValidator class is used to ensure the data is valid and to provide user friendly localized messages if it is not. If the data is valid, then the Repository adds the information each entity should have like the creation data and others and will save the data to the database (more on this later). It then knows about the Id of the recently created item and can return a fully populated Item back to the ItemService. Because we don't need all this information for this view, it converts it into an ItemViewModel that only has the Id, Name and Description. The ItemController then serializes this ItemViewModel as json and returns it to the frontend. sequenceDiagram ItemController ->> ItemService: CreateItem(<br/>CreateItemDTO item = {<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"},<br/>UserId userId = 123) ItemService ->> IValidator#lt;T#gt;: ValidateAsync(createItemDto) IValidator#lt;T#gt; ->> ItemService: ValidationResult.IsValid ItemService ->> Repository#lt;T#gt;: Create<T>(Item item = {<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"}) Repository#lt;T#gt; ->> ItemService: returns Item item = {<br/>Id = 10,<br/>CreatedAt = 2021-01-23 18:05:30,<br/>CreatedByUserId = 123,<br/>UpdatedAt = 2021-01-23 18:05:30,<br/>UpdatedByUserId = 123,<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"} ItemService ->> ItemController: returns<br/>ItemViewModel item = {<br/>Id = 10,<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"} Note What if the data is not valid? We use OneOf to return either a Success or an Error as a \"discriminated union\". Basically the consumer of a OneOf with have to handle either a .Switch or .Match method to handle all possible return scenarios. Each of these scenarios may be a different object as a success and an error are wildly different things. In our case, should the DTO not be valid we have an Error<string> with localized errors (one per line) that are user friendly and we return a BadRequest from our controller. External code This module uses Entity Framework for the data layer. This means amongst other things that we define all our data entities from code using attributes and do not need SQL Scripts in the Dnn extension package. In combination with the Repository Pattern it allows in most cases to also not need complex stored procedures. It also uses IQueryable to combine many filtering/sorting requests and only actually touch the database when needed with a very optimized single query. EF (Entity Framework) supports many different types of databases, this unlinks the module logic from any type of data infrastructure. Right now, this module uses the Dnn database but it can easily be changed to a separate database or even another database type altogether. Warning This template does not currently support a {databaseQualifier} or a custom {databaseOwner}. It is not eady but it is possible to support this scenario, if anyone needs this feature, a pull request would be welcome. Note Note that we first call dataContext.Add(new Item ...) and as a second step we call dataContext.SaveChanges(). For operations that write, the database is never touched until the SaveChanges method is called. This allows creating different entities which may have relationships or queuing up many operations to let EF optimize a database query that will be the best for the situation. sequenceDiagram Repository#lt;T#gt; ->> Entity Framework: dataContext.Add(new Item() {<br/>Id = -1,<br/>CreatedAt = 2021-01-23 18:30:00,<br/>CreatedByUserId = 123,<br/>UpdatedAt = 2021-01-23 18:30:00,<br/>UpdatedByUserId = 123,<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"}) Repository#lt;T#gt; ->> Entity Framework: dataContext.SaveChanges() Entity Framework ->> SQL Server : INSERT INTO MyModule_Items<br/>(CreatedAt, CreatedByUserId,<br/> UpdatedAt, UpdatedByUserId,<br/> Name, Description)<br/>VALUES (2021-01-23 18:30:00, 123<br/>2021-01-23 18:30:00, 123<br/>\"First Item\", \"This is the first item\")<br/>GO<br/>SELECT SCOPE_IDENTITY()<br/>GO SQL Server ->> Entity Framework: 10 Entity Framework ->> Repository#lt;T#gt;: item = {<br/>Id = 10,<br/>CreatedAt = 2021-01-23 18:30:00,<br/>CreatedByUserId = 123,<br/>UpdatedAt = 2021-01-23 18:30:00,<br/>UpdatedByUserId = 123,<br/>Name = \"First Item\",<br/>Description = \"This is the first item\"} Classes Now that we have a basic understanding of the overall principles of this pattern, let's examine each class in details. For simplicity only the important code and methods are kept in samples and diagrams below and we will keep discussing only creating a new item.The other scenarios are similar but simply with different request and response data. ItemController Responsability The itemController is responsible for: Handling HTTP requests and responses (success or failures) Serve as the entry point for dependency injection (we get an IItemService injected by the Startup class that implements the IDnnStartup interface) Provide Dnn context information about the module, the portal and the user for the current request As you can see, this class has more than one responsability and inherits from other base classes that are not under our control. One of them, DnnApiController was not built with unit testing in mind. For those reasons, as part of our unit tests, we exclude the Controllers folder. We use OneOf here to return a result that can be only one of many things. This avoids having to handle exceptions which are not great for performance and have no ways to force consumer implementations. In this case, we ensure that we always have to implement what to do for a success or a failure. Inheritance The ItemController inherits from ModuleApiController which provides properties and methods we want to be available in all our controllers. For instance here, we provide an interface for logging and whether or not the user has module edit rights. The ModuleApiController then inherits from DnnApiController which provides us Dnn specific information about the module, the portal and the user. Finally DnnApiController inherits from Microsoft ApiController which provides all kinds of properties and methods that belong to an WebService API request. Dependencies IItemService is an interface, we should in our code alway depend on interfaces and not on implementations, this allows easy refactoring or replacement of implementations and makes software more maintainable and testable. Notice we never do new ItemService(), we get the implementention get injected for us (Dependency Invertion Principle). In other words: We don't care how exactly the service creates and item as long as it does create it with the specified parameters and it returns us the correct type. I like to call this the \"I don't care how principle\". We only depend on classes when they have only public properties and no methods. In some situations those could be struct but there are some gotchas with structs. classDiagram class ItemController ItemController: -IItemService itemService ItemController: +ItemController(IItemService itemService) ItemController: +CreateItem(CreateItemDTO item) ItemViewModel ItemController: +GetItemsPage(GetItemsPageDTO) ItemsPageViewModel ItemController: +DeleteItem(Int itemId) ItemController ..> IItemService ItemController ..> CreateItemDTO ItemController ..> ItemViewModel class CreateItemDTO CreateItemDTO: +string Name CreateItemDTO: +string Description class ItemViewModel ItemViewModel: +int Id ItemViewModel: +string Name ItemViewModel: +string Description class ModuleApiController ModuleApiController: +ILogger Logger ModuleApiController: +Bool CanEdit ModuleApiController <|-- ItemController class DnnApiController DnnApiController: +ModuleInfo ActiveModule DnnApiController: +PortalSettings PortalSettings DnnApiController: +UserInfo UserInfo DnnApiController <|-- ModuleApiController class ApiController ApiController: +HttpRequestMessage Request ApiController: +Uri Url ApiController: +Ok(object data) OkResult ApiController: +InternalServerError(Exception ex) InternalServerErrorResult ApiController <|-- DnnApiController class ItemService ItemService: -IRepository<Item> itemRepository ItemService: +CreateItem(CreateItemDTO item, int userId) ItemViewModel class IItemService <<interface>> IItemService IItemService: +CreateItem(CreateItemDTO item, int userId) ItemViewModel IItemService <|-- ItemService /// <summary> /// Provides Web API access for items. /// </summary> public class ItemController : ModuleApiController { private readonly IItemService itemService; /// <summary> /// Initializes a new instance of the <see cref=\"ItemController\"/> class. /// </summary> /// <param name=\"itemService\">The items reposioty.</param> public ItemController(IItemService itemService) { this.itemService = itemService; } /// <summary> /// Creates a new item. /// </summary> /// <param name=\"item\">The item to create.</param> /// <returns>Nothing.</returns> [HttpPost] [ValidateAntiForgeryToken] ... public IHttpActionResult CreateItem(CreateItemDTO item) { var result = await this.itemService.CreateItemAsync(item, this.UserInfo.UserID); return result.Match<IHttpActionResult>( success => this.Ok(success.Value), error => this.BadRequest(string.Join(System.Environment.NewLine, error.Value.Select(e => e.ErrorMessage)))); } ... } ItemService Responsability Service classes are core of our business logic in this pattern. In this case it should enclose all the the requirements that relate to an Item. For instance we could do custom validation or sanitization on values, enforce ralations, etc. Inheritance The ItemController inherits from the IItemController interface, again this is to allow using dependency injection where we need it and also help out with unit tests and decoupling classes for easier maintenance. We also use FluentValidation here to extract validation into its own class (single responsability principle). Dependencies Again we only depend on interfaces and data-objects. For instance here we never create an instance of the Repository, we get in injected in the constructor from whowever calls this service. classDiagram class CreateItemDTO CreateItemDTO: +string Name CreateItemDTO: +string Description class ItemViewModel ItemViewModel: +int Id ItemViewModel: +string Name ItemViewModel: +string Description class ItemService ItemService: -IRepository<Item> itemRepository ItemService: -IValidator<CreateItemDto> createItemDtoValidator ItemService: +ItemService(IRepository<Item> itemRepository) ItemService: +CreateItem(CreateItemDTO item, int userId) ItemViewModel ItemService: +GetItemsPage(GetItemsPageDTO request) ItemsPageViewModel ItemService: +DeleteItem(int itemId) ItemService ..> CreateItemDTO ItemService ..> ItemViewModel ItemService ..> IRepository~T~ ItemService ..> Item ItemService ..> IValidator~T~ class IItemService <<interface>> IItemService IItemService: +CreateItem(CreateItemDTO item, int userId) ItemViewModel IItemService: +GetItemsPage(GetItemsPageDTO request) ItemsPageViewModel IItemService: +DeleteItem(int itemId) IItemService <|-- ItemService class IRepository~T~ IRepository~T~: +Create(T entity) T class Repository~T~ Repository~T~: -DataContext context Repository~T~: +Create(T entity) T IRepository~T~ <|-- Repository~T~ class Item Item: +string Name Item: +string Description BaseEntity <|-- Item class BaseEntity BaseEntity: +int Id BaseEntity: +DateTime CreatedAt BaseEntity: +int CreatedByUserId BaseEntity: +DateTime UpdatedAt BaseEntity: +int UpdatedByUserId class IEntity IEntity: +int Id IEntity: +DateTime CreatedAt IEntity: +int CreatedByUserId IEntity: +DateTime UpdatedAt IEntity: +int UpdatedByUserId IEntity <|-- BaseEntity class SaveItemDtoValidator SaveItemDtoValidator: +ValidationResult Validate class IValidator~T~ <<interface>> IValidator~T~ IValidator~T~ <|-- SaveItemDtoValidator /// <summary> /// Provides services to manage items. /// </summary> public class ItemService : IItemService { private IRepository<Item> itemRepository; /// <summary> /// Initializes a new instance of the <see cref=\"ItemService\"/> class. /// </summary> /// <param name=\"itemRepository\">The items repository.</param> public ItemService(IRepository<Item> itemRepository) { this.itemRepository = itemRepository; } /// <inheritdoc/> /// <exception cref=\"ArgumentNullException\"> is thrown if the item or one of its required properties are missing.</exception> public ItemViewModel CreateItem(CreateItemDTO item, int userId) { var validationResult = await this.createItemDtoValidator.ValidateAsync(item); if (!validationResult.IsValid) { return new Error<List<ValidationFailure>>(validationResult.Errors); } var newItem = new Item() { Name = item.Name, Description = item.Description }; await this.itemRepository.CreateAsync(newItem, userId); var vm = new ItemViewModel(newItem); return new Success<ItemViewModel>(vm); } ... } Repository<T> Responsability This generic repository provides common data oriented methods that can apply to any entity. You can also create specific repositories instead if you need more methods that are specific to a particular entity. It only responsability is to provide data access in a generic fashion. Of cource we could use Entity Framework anywhere but keeping data-access isolate in a single layer decouples the module from any specific data-access technology and will make both testing and maintainability much easier. Tip Note that the Create Method initializes the audit control fields (CreatedAt, CreatedBy, etc.). This can only work on properties that exists on any entity (defined in BaseEntity or in it's interface IEntity). If you have any other methods that can apply to any entity, this is the place to implement it. (note how we don't have an Update(T entity) method on purpose for teaching purposes). Inheritance The Repository<T> only inherits from the IRepository<T> interface, this allows it to be injected where we need it using Dependency Injection and decouples the implementation from the rest of the code. Dependencies The Repository<T> depends only on EntityFramework DataContext (DbContext). Unless you start using EF elsewhere this is the only class that depends on it. Generics This class is generic, which means it can work on any entity which inherits the BaseEntity class. So all it's methods work on any entity you would decide to create as long as your entity inherits from BaseEntity. classDiagram class IRepository~T~ IRepository~T~: +Create(T entity, int userId) T IRepository~T~: +GetAll() IEnumerable~T~ IRepository~T~: +Get() IQueryable~T~ IRepository~T~: +GetById(int id) T IRepository~T~: +GetPage(...) IQueryable~T~ class Repository~T~ Repository~T~: -DataContext context Repository~T~: +Create(T entity, int userId) T Repository~T~: +GetAll() IEnumerable~T~ Repository~T~: +Get() IQueryable~T~ Repository~T~: +GetById(int id) T Repository~T~: +GetPage(...) IQueryable~T~ IRepository~T~ <|-- Repository~T~ Repository~T~ --> BaseEntity class Item Item: +string Name Item: +string Description BaseEntity <|-- Item class BaseEntity BaseEntity: +int Id BaseEntity: +DateTime CreatedAt BaseEntity: +int CreatedByUserId BaseEntity: +DateTime UpdatedAt BaseEntity: +int UpdatedByUserId class IEntity <<interface>> IEntity IEntity: +int Id IEntity: +DateTime CreatedAt IEntity: +int CreatedByUserId IEntity: +DateTime UpdatedAt IEntity: +int UpdatedByUserId IEntity <|-- BaseEntity class DataContext <<EntityFramework>> DataContext DataContext: +DbSet~T~ entities DataContext: +Create(T entity) T DataContext: +SaveChanges() DataContext <.. Repository~T~ /// <summary> /// Provides common generic data access methods for entities. /// </summary> /// <typeparam name=\"T\">The type of the entities.</typeparam> public class Repository<T> : IRepository<T> where T : BaseEntity { private readonly ModuleDbContext context; private DbSet<T> entities; /// <summary> /// Initializes a new instance of the <see cref=\"Repository{TEntity}\"/> class. /// </summary> /// <param name=\"context\">The module database context.</param> public Repository(ModuleDbContext context) { this.context = context; this.entities = context.Set<T>(); } ... /// <inheritdoc/> public void Create(T entity, int userId = -1) { if (entity == null) { throw new ArgumentNullException(\"entity\"); } entity.CreatedByUserId = userId; entity.UpdatedByUserId = userId; this.entities.Add(entity); this.context.SaveChanges(); } }"
+  },
+  "components/index.html": {
+    "href": "components/index.html",
+    "title": "Stencil Component Starter",
+    "summary": "Stencil Component Starter This is a starter project for building a standalone Web Component using Stencil. Stencil is also great for building entire apps. For that, use the stencil-app-starter instead. Stencil Stencil is a compiler for building fast web apps using Web Components. Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool. Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec. Stencil components are just Web Components, so they work in any major framework or with no framework at all. Getting Started To start building a new web component using Stencil, clone this repo to a new directory: git clone https://github.com/ionic-team/stencil-component-starter.git my-component cd my-component git remote rm origin and run: npm install npm start To build the component for production, run: npm run build To run the unit tests for the components, run: npm test Need help? Check out our docs here. Naming Components When creating new component tags, we recommend not using stencil in the component name (ex: <stencil-datepicker>). This is because the generated component has little to nothing to do with Stencil; it's just a web component! Instead, use a prefix that fits your company or any name for a group of related components. For example, all of the Ionic generated web components use the prefix ion. Using this component Script tag Publish to NPM Put a script tag similar to this <script src='https://unpkg.com/my-component@0.0.1/dist/mycomponent.js'></script> in the head of your index.html Then you can use the element anywhere in your template, JSX, html etc Node Modules Run npm install my-component --save Put a script tag similar to this <script src='node_modules/my-component/dist/mycomponent.js'></script> in the head of your index.html Then you can use the element anywhere in your template, JSX, html etc In a stencil-starter app Run npm install my-component --save Add an import to the npm packages import my-component; Then you can use the element anywhere in your template, JSX, html etc"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Eraware My Module Documentation.",
+    "summary": "Eraware My Module Documentation. Getting Started Backend API Documentation"
+  },
+  "rest/rest-api.html": {
+    "href": "rest/rest-api.html",
+    "title": "",
+    "summary": ""
+  }
+}

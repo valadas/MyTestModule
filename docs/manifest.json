@@ -1,0 +1,2099 @@
+{
+  "source_base_path": "/home/runner/work/MyTestModule/MyTestModule/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Common.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Common.Globals.ModulePrefix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Common.Globals.ModulePrefix",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Common.Globals.yml\" sourcestartlinenumber=\"1\">The module prefix to use to uniquely identify string that may conflict with others, such as sql tables.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Common.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Common.Globals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Common.Globals",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Common.Globals.yml\" sourcestartlinenumber=\"1\">Global values, constants and methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.ItemController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.CreateItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.CreateItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Controllers.ItemController.yml\" sourcestartlinenumber=\"1\">Provides Web API access for items.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.LocalizationController",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Controllers.LocalizationController.yml\" sourcestartlinenumber=\"1\">Provides localization related web services.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.LocalizationController.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.LocalizationController.LocalizationController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ModuleApiController",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Controllers.ModuleApiController.yml\" sourcestartlinenumber=\"1\">Provides common features to all module controller.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers.ServiceRouteMapper",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.yml\" sourcestartlinenumber=\"1\">Implements the Dnn IServiceRouteMapper to register this module routes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.BaseEntity",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.yml\" sourcestartlinenumber=\"1\">Base entity to provide common properties to other entities and allow it's usage in generic repositories.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.Id.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity.Id",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml\" sourcestartlinenumber=\"1\">Ensures entities have some common properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.Item.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.Description.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.Item.Description",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities.Item",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Entities.Item.yml\" sourcestartlinenumber=\"1\">Represents an item entity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Entities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Entities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.ModuleDbContext.ModuleDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.ModuleDbContext.Items",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.ModuleDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.ModuleDbContext",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.ModuleDbContext.yml\" sourcestartlinenumber=\"1\">The data context for this module.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IItemRepository",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.yml\" sourcestartlinenumber=\"1\">Provides data-access to the <xref href=\"Eraware.Modules.MyModule.Data.Entities.Item\" data-throw-if-not-resolved=\"false\"></xref> entity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.CreateAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.CreateAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetAllAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetAllAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.Get.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.Get",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetByIdAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetByIdAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.DeleteAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.DeleteAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.UpdateAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.UpdateAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml\" sourcestartlinenumber=\"1\">Provides generic data access features for entities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetPageAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetPageAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Items",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageCount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.ResultCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.ResultCount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml\" sourcestartlinenumber=\"1\">Presents a list of entities in pages.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Page.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Page",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PagedList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml\" sourcestartlinenumber=\"1\">Provides common generic data access methods for entities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Repository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetAllAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetAllAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.Get.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Get",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetByIdAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetByIdAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetPageAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetPageAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.CreateAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.CreateAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.UpdateAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.UpdateAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.DeleteAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories.Repository<T>.DeleteAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Providers.IDateTimeProvider",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.yml\" sourcestartlinenumber=\"1\">Provides a testable version of DateTime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Providers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Providers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.CreateItemDTO",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.yml\" sourcestartlinenumber=\"1\">Data transfer object to create a new item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.yml\" sourcestartlinenumber=\"1\">Validates the <xref href=\"Eraware.Modules.MyModule.Services.Items.CreateItemDTO\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.CreateItemDtoValidator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml\" sourcestartlinenumber=\"1\">The data object to request a paged list of items.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.IItemService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.IItemService",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.IItemService.yml\" sourcestartlinenumber=\"1\">Provides services to manage items.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService.ItemService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.ItemService.yml\" sourcestartlinenumber=\"1\">Provides services to manage items.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemViewModel",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml\" sourcestartlinenumber=\"1\">Represents the basic information about an item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemViewModel.ItemViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.yml\" sourcestartlinenumber=\"1\">Represents a page of items, <xref href=\"Eraware.Modules.MyModule.Data.Entities.Item\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.UpdateItemDTO",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.yml\" sourcestartlinenumber=\"1\">Data transfer object used to update an item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Items",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.ILocalizationService",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.yml\" sourcestartlinenumber=\"1\">Provides strongly typed localization services for this module.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationService",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.yml\" sourcestartlinenumber=\"1\">Provides strongly typed localization services for this module.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.-ctor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationService.LocalizationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.yml\" sourcestartlinenumber=\"1\">Localized strings for the ModelValidation resources.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.yml\" sourcestartlinenumber=\"1\">Localized strings for the UI resources.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.yml\" sourcestartlinenumber=\"1\">A viewmodel that exposes all resource keys in strong types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.Localization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Services.Localization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Startup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Startup",
+      "Summary": "<p sourcefile=\"api/Eraware.Modules.MyModule.Startup.yml\" sourcestartlinenumber=\"1\">Implements the IDnnStartup interface to run at application start.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.Startup.ConfigureServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule.Startup.ConfigureServices",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eraware.Modules.MyModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eraware.Modules.MyModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Eraware.Modules.MyModule",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/git.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/git.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/project-architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/project-architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "client/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "client/toc.html"
+        },
+        ".json": {
+          "relative_path": "client/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "components/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "components/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "components/toc.html"
+        },
+        ".json": {
+          "relative_path": "components/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Package.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/Package.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-beta-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-beta-release.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-develop-branch.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-develop-branch.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-pull-request.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-pull-request.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/create-release.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/create-release.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/initial-commit.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/initial-commit.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/install-module.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/install-module.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "rest/rest-api.md",
+      "output": {
+        ".html": {
+          "relative_path": "rest/rest-api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "rest/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "rest/toc.html"
+        },
+        ".json": {
+          "relative_path": "rest/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

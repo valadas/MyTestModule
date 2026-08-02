@@ -1,0 +1,1556 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Eraware.Modules.MyModule
+  name: Eraware.Modules.MyModule
+  href: api/Eraware.Modules.MyModule.html
+  commentId: N:Eraware.Modules.MyModule
+  fullName: Eraware.Modules.MyModule
+  nameWithType: Eraware.Modules.MyModule
+- uid: Eraware.Modules.MyModule.Common
+  name: Eraware.Modules.MyModule.Common
+  href: api/Eraware.Modules.MyModule.Common.html
+  commentId: N:Eraware.Modules.MyModule.Common
+  fullName: Eraware.Modules.MyModule.Common
+  nameWithType: Eraware.Modules.MyModule.Common
+- uid: Eraware.Modules.MyModule.Common.Globals
+  name: Globals
+  href: api/Eraware.Modules.MyModule.Common.Globals.html
+  commentId: T:Eraware.Modules.MyModule.Common.Globals
+  fullName: Eraware.Modules.MyModule.Common.Globals
+  nameWithType: Globals
+- uid: Eraware.Modules.MyModule.Common.Globals.ModulePrefix
+  name: ModulePrefix
+  href: api/Eraware.Modules.MyModule.Common.Globals.ModulePrefix.html
+  commentId: F:Eraware.Modules.MyModule.Common.Globals.ModulePrefix
+  fullName: Eraware.Modules.MyModule.Common.Globals.ModulePrefix
+  nameWithType: Globals.ModulePrefix
+- uid: Eraware.Modules.MyModule.Controllers
+  name: Eraware.Modules.MyModule.Controllers
+  href: api/Eraware.Modules.MyModule.Controllers.html
+  commentId: N:Eraware.Modules.MyModule.Controllers
+  fullName: Eraware.Modules.MyModule.Controllers
+  nameWithType: Eraware.Modules.MyModule.Controllers
+- uid: Eraware.Modules.MyModule.Controllers.ItemController
+  name: ItemController
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.html
+  commentId: T:Eraware.Modules.MyModule.Controllers.ItemController
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController
+  nameWithType: ItemController
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.#ctor(Eraware.Modules.MyModule.Services.Items.IItemService)
+  name: ItemController(IItemService)
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.-ctor.html#Eraware_Modules_MyModule_Controllers_ItemController__ctor_Eraware_Modules_MyModule_Services_Items_IItemService_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.#ctor(Eraware.Modules.MyModule.Services.Items.IItemService)
+  name.vb: New(IItemService)
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.ItemController(Eraware.Modules.MyModule.Services.Items.IItemService)
+  fullName.vb: Eraware.Modules.MyModule.Controllers.ItemController.New(Eraware.Modules.MyModule.Services.Items.IItemService)
+  nameWithType: ItemController.ItemController(IItemService)
+  nameWithType.vb: ItemController.New(IItemService)
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.#ctor*
+  name: ItemController
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.ItemController
+  fullName.vb: Eraware.Modules.MyModule.Controllers.ItemController.New
+  nameWithType: ItemController.ItemController
+  nameWithType.vb: ItemController.New
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.CreateItem(Eraware.Modules.MyModule.Services.Items.CreateItemDTO)
+  name: CreateItem(CreateItemDTO)
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.CreateItem.html#Eraware_Modules_MyModule_Controllers_ItemController_CreateItem_Eraware_Modules_MyModule_Services_Items_CreateItemDTO_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.CreateItem(Eraware.Modules.MyModule.Services.Items.CreateItemDTO)
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.CreateItem(Eraware.Modules.MyModule.Services.Items.CreateItemDTO)
+  nameWithType: ItemController.CreateItem(CreateItemDTO)
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.CreateItem*
+  name: CreateItem
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.CreateItem.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.CreateItem
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.CreateItem
+  nameWithType: ItemController.CreateItem
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem(System.Int32)
+  name: DeleteItem(int)
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem.html#Eraware_Modules_MyModule_Controllers_ItemController_DeleteItem_System_Int32_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem(System.Int32)
+  name.vb: DeleteItem(Integer)
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem(int)
+  fullName.vb: Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem(Integer)
+  nameWithType: ItemController.DeleteItem(int)
+  nameWithType.vb: ItemController.DeleteItem(Integer)
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem*
+  name: DeleteItem
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.DeleteItem
+  nameWithType: ItemController.DeleteItem
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage(Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO)
+  name: GetItemsPage(GetItemsPageDTO)
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage.html#Eraware_Modules_MyModule_Controllers_ItemController_GetItemsPage_Eraware_Modules_MyModule_Services_Items_GetItemsPageDTO_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage(Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO)
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage(Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO)
+  nameWithType: ItemController.GetItemsPage(GetItemsPageDTO)
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage*
+  name: GetItemsPage
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.GetItemsPage
+  nameWithType: ItemController.GetItemsPage
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO)
+  name: UpdateItem(UpdateItemDTO)
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem.html#Eraware_Modules_MyModule_Controllers_ItemController_UpdateItem_Eraware_Modules_MyModule_Services_Items_UpdateItemDTO_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO)
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO)
+  nameWithType: ItemController.UpdateItem(UpdateItemDTO)
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem*
+  name: UpdateItem
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.UpdateItem
+  nameWithType: ItemController.UpdateItem
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit
+  name: UserCanEdit()
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit.html#Eraware_Modules_MyModule_Controllers_ItemController_UserCanEdit
+  commentId: M:Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit()
+  nameWithType: ItemController.UserCanEdit()
+- uid: Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit*
+  name: UserCanEdit
+  href: api/Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit
+  fullName: Eraware.Modules.MyModule.Controllers.ItemController.UserCanEdit
+  nameWithType: ItemController.UserCanEdit
+- uid: Eraware.Modules.MyModule.Controllers.LocalizationController
+  name: LocalizationController
+  href: api/Eraware.Modules.MyModule.Controllers.LocalizationController.html
+  commentId: T:Eraware.Modules.MyModule.Controllers.LocalizationController
+  fullName: Eraware.Modules.MyModule.Controllers.LocalizationController
+  nameWithType: LocalizationController
+- uid: Eraware.Modules.MyModule.Controllers.LocalizationController.#ctor(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  name: LocalizationController(ILocalizationService)
+  href: api/Eraware.Modules.MyModule.Controllers.LocalizationController.-ctor.html#Eraware_Modules_MyModule_Controllers_LocalizationController__ctor_Eraware_Modules_MyModule_Services_Localization_ILocalizationService_
+  commentId: M:Eraware.Modules.MyModule.Controllers.LocalizationController.#ctor(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  name.vb: New(ILocalizationService)
+  fullName: Eraware.Modules.MyModule.Controllers.LocalizationController.LocalizationController(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  fullName.vb: Eraware.Modules.MyModule.Controllers.LocalizationController.New(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  nameWithType: LocalizationController.LocalizationController(ILocalizationService)
+  nameWithType.vb: LocalizationController.New(ILocalizationService)
+- uid: Eraware.Modules.MyModule.Controllers.LocalizationController.#ctor*
+  name: LocalizationController
+  href: api/Eraware.Modules.MyModule.Controllers.LocalizationController.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.LocalizationController.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Controllers.LocalizationController.LocalizationController
+  fullName.vb: Eraware.Modules.MyModule.Controllers.LocalizationController.New
+  nameWithType: LocalizationController.LocalizationController
+  nameWithType.vb: LocalizationController.New
+- uid: Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization
+  name: GetLocalization()
+  href: api/Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization.html#Eraware_Modules_MyModule_Controllers_LocalizationController_GetLocalization
+  commentId: M:Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization
+  fullName: Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization()
+  nameWithType: LocalizationController.GetLocalization()
+- uid: Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization*
+  name: GetLocalization
+  href: api/Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization
+  fullName: Eraware.Modules.MyModule.Controllers.LocalizationController.GetLocalization
+  nameWithType: LocalizationController.GetLocalization
+- uid: Eraware.Modules.MyModule.Controllers.ModuleApiController
+  name: ModuleApiController
+  href: api/Eraware.Modules.MyModule.Controllers.ModuleApiController.html
+  commentId: T:Eraware.Modules.MyModule.Controllers.ModuleApiController
+  fullName: Eraware.Modules.MyModule.Controllers.ModuleApiController
+  nameWithType: ModuleApiController
+- uid: Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit
+  name: CanEdit
+  href: api/Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit.html#Eraware_Modules_MyModule_Controllers_ModuleApiController_CanEdit
+  commentId: P:Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit
+  fullName: Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit
+  nameWithType: ModuleApiController.CanEdit
+- uid: Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit*
+  name: CanEdit
+  href: api/Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit
+  fullName: Eraware.Modules.MyModule.Controllers.ModuleApiController.CanEdit
+  nameWithType: ModuleApiController.CanEdit
+- uid: Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo
+  name: UserInfo
+  href: api/Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo.html#Eraware_Modules_MyModule_Controllers_ModuleApiController_UserInfo
+  commentId: P:Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo
+  fullName: Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo
+  nameWithType: ModuleApiController.UserInfo
+- uid: Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo*
+  name: UserInfo
+  href: api/Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo
+  fullName: Eraware.Modules.MyModule.Controllers.ModuleApiController.UserInfo
+  nameWithType: ModuleApiController.UserInfo
+- uid: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper
+  name: ServiceRouteMapper
+  href: api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.html
+  commentId: T:Eraware.Modules.MyModule.Controllers.ServiceRouteMapper
+  fullName: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper
+  nameWithType: ServiceRouteMapper
+- uid: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes(DotNetNuke.Web.Api.IMapRoute)
+  name: RegisterRoutes(IMapRoute)
+  href: api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes.html#Eraware_Modules_MyModule_Controllers_ServiceRouteMapper_RegisterRoutes_DotNetNuke_Web_Api_IMapRoute_
+  commentId: M:Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes(DotNetNuke.Web.Api.IMapRoute)
+  fullName: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes(DotNetNuke.Web.Api.IMapRoute)
+  nameWithType: ServiceRouteMapper.RegisterRoutes(IMapRoute)
+- uid: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes*
+  name: RegisterRoutes
+  href: api/Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes.html
+  commentId: Overload:Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes
+  fullName: Eraware.Modules.MyModule.Controllers.ServiceRouteMapper.RegisterRoutes
+  nameWithType: ServiceRouteMapper.RegisterRoutes
+- uid: Eraware.Modules.MyModule.Data
+  name: Eraware.Modules.MyModule.Data
+  href: api/Eraware.Modules.MyModule.Data.html
+  commentId: N:Eraware.Modules.MyModule.Data
+  fullName: Eraware.Modules.MyModule.Data
+  nameWithType: Eraware.Modules.MyModule.Data
+- uid: Eraware.Modules.MyModule.Data.Entities
+  name: Eraware.Modules.MyModule.Data.Entities
+  href: api/Eraware.Modules.MyModule.Data.Entities.html
+  commentId: N:Eraware.Modules.MyModule.Data.Entities
+  fullName: Eraware.Modules.MyModule.Data.Entities
+  nameWithType: Eraware.Modules.MyModule.Data.Entities
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity
+  name: BaseEntity
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.html
+  commentId: T:Eraware.Modules.MyModule.Data.Entities.BaseEntity
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity
+  nameWithType: BaseEntity
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt
+  name: CreatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt.html#Eraware_Modules_MyModule_Data_Entities_BaseEntity_CreatedAt
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt
+  nameWithType: BaseEntity.CreatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt*
+  name: CreatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedAt
+  nameWithType: BaseEntity.CreatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId
+  name: CreatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId.html#Eraware_Modules_MyModule_Data_Entities_BaseEntity_CreatedByUserId
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId
+  nameWithType: BaseEntity.CreatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId*
+  name: CreatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.CreatedByUserId
+  nameWithType: BaseEntity.CreatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id
+  name: Id
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id.html#Eraware_Modules_MyModule_Data_Entities_BaseEntity_Id
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id
+  nameWithType: BaseEntity.Id
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id*
+  name: Id
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.Id
+  nameWithType: BaseEntity.Id
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt
+  name: UpdatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt.html#Eraware_Modules_MyModule_Data_Entities_BaseEntity_UpdatedAt
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt
+  nameWithType: BaseEntity.UpdatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt*
+  name: UpdatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedAt
+  nameWithType: BaseEntity.UpdatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId
+  name: UpdatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId.html#Eraware_Modules_MyModule_Data_Entities_BaseEntity_UpdatedByUserId
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId
+  nameWithType: BaseEntity.UpdatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId*
+  name: UpdatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.BaseEntity.UpdatedByUserId
+  nameWithType: BaseEntity.UpdatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity
+  name: IEntity
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.html
+  commentId: T:Eraware.Modules.MyModule.Data.Entities.IEntity
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity
+  nameWithType: IEntity
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt
+  name: CreatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt.html#Eraware_Modules_MyModule_Data_Entities_IEntity_CreatedAt
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt
+  nameWithType: IEntity.CreatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt*
+  name: CreatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedAt
+  nameWithType: IEntity.CreatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId
+  name: CreatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId.html#Eraware_Modules_MyModule_Data_Entities_IEntity_CreatedByUserId
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId
+  nameWithType: IEntity.CreatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId*
+  name: CreatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.CreatedByUserId
+  nameWithType: IEntity.CreatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.Id
+  name: Id
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.Id.html#Eraware_Modules_MyModule_Data_Entities_IEntity_Id
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.IEntity.Id
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.Id
+  nameWithType: IEntity.Id
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.Id*
+  name: Id
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.Id.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.IEntity.Id
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.Id
+  nameWithType: IEntity.Id
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt
+  name: UpdatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt.html#Eraware_Modules_MyModule_Data_Entities_IEntity_UpdatedAt
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt
+  nameWithType: IEntity.UpdatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt*
+  name: UpdatedAt
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedAt
+  nameWithType: IEntity.UpdatedAt
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId
+  name: UpdatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId.html#Eraware_Modules_MyModule_Data_Entities_IEntity_UpdatedByUserId
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId
+  nameWithType: IEntity.UpdatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId*
+  name: UpdatedByUserId
+  href: api/Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId
+  fullName: Eraware.Modules.MyModule.Data.Entities.IEntity.UpdatedByUserId
+  nameWithType: IEntity.UpdatedByUserId
+- uid: Eraware.Modules.MyModule.Data.Entities.Item
+  name: Item
+  href: api/Eraware.Modules.MyModule.Data.Entities.Item.html
+  commentId: T:Eraware.Modules.MyModule.Data.Entities.Item
+  fullName: Eraware.Modules.MyModule.Data.Entities.Item
+  nameWithType: Item
+- uid: Eraware.Modules.MyModule.Data.Entities.Item.Description
+  name: Description
+  href: api/Eraware.Modules.MyModule.Data.Entities.Item.Description.html#Eraware_Modules_MyModule_Data_Entities_Item_Description
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.Item.Description
+  fullName: Eraware.Modules.MyModule.Data.Entities.Item.Description
+  nameWithType: Item.Description
+- uid: Eraware.Modules.MyModule.Data.Entities.Item.Description*
+  name: Description
+  href: api/Eraware.Modules.MyModule.Data.Entities.Item.Description.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.Item.Description
+  fullName: Eraware.Modules.MyModule.Data.Entities.Item.Description
+  nameWithType: Item.Description
+- uid: Eraware.Modules.MyModule.Data.Entities.Item.Name
+  name: Name
+  href: api/Eraware.Modules.MyModule.Data.Entities.Item.Name.html#Eraware_Modules_MyModule_Data_Entities_Item_Name
+  commentId: P:Eraware.Modules.MyModule.Data.Entities.Item.Name
+  fullName: Eraware.Modules.MyModule.Data.Entities.Item.Name
+  nameWithType: Item.Name
+- uid: Eraware.Modules.MyModule.Data.Entities.Item.Name*
+  name: Name
+  href: api/Eraware.Modules.MyModule.Data.Entities.Item.Name.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Entities.Item.Name
+  fullName: Eraware.Modules.MyModule.Data.Entities.Item.Name
+  nameWithType: Item.Name
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext
+  name: ModuleDbContext
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.html
+  commentId: T:Eraware.Modules.MyModule.Data.ModuleDbContext
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext
+  nameWithType: ModuleDbContext
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor
+  name: ModuleDbContext()
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html#Eraware_Modules_MyModule_Data_ModuleDbContext__ctor
+  commentId: M:Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor
+  name.vb: New()
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext.ModuleDbContext()
+  fullName.vb: Eraware.Modules.MyModule.Data.ModuleDbContext.New()
+  nameWithType: ModuleDbContext.ModuleDbContext()
+  nameWithType.vb: ModuleDbContext.New()
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor(System.Data.Common.DbConnection)
+  name: ModuleDbContext(DbConnection)
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html#Eraware_Modules_MyModule_Data_ModuleDbContext__ctor_System_Data_Common_DbConnection_
+  commentId: M:Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor(System.Data.Common.DbConnection)
+  name.vb: New(DbConnection)
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext.ModuleDbContext(System.Data.Common.DbConnection)
+  fullName.vb: Eraware.Modules.MyModule.Data.ModuleDbContext.New(System.Data.Common.DbConnection)
+  nameWithType: ModuleDbContext.ModuleDbContext(DbConnection)
+  nameWithType.vb: ModuleDbContext.New(DbConnection)
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor*
+  name: ModuleDbContext
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.ModuleDbContext.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext.ModuleDbContext
+  fullName.vb: Eraware.Modules.MyModule.Data.ModuleDbContext.New
+  nameWithType: ModuleDbContext.ModuleDbContext
+  nameWithType.vb: ModuleDbContext.New
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext.Items
+  name: Items
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.Items.html#Eraware_Modules_MyModule_Data_ModuleDbContext_Items
+  commentId: P:Eraware.Modules.MyModule.Data.ModuleDbContext.Items
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext.Items
+  nameWithType: ModuleDbContext.Items
+- uid: Eraware.Modules.MyModule.Data.ModuleDbContext.Items*
+  name: Items
+  href: api/Eraware.Modules.MyModule.Data.ModuleDbContext.Items.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.ModuleDbContext.Items
+  fullName: Eraware.Modules.MyModule.Data.ModuleDbContext.Items
+  nameWithType: ModuleDbContext.Items
+- uid: Eraware.Modules.MyModule.Data.Repositories
+  name: Eraware.Modules.MyModule.Data.Repositories
+  href: api/Eraware.Modules.MyModule.Data.Repositories.html
+  commentId: N:Eraware.Modules.MyModule.Data.Repositories
+  fullName: Eraware.Modules.MyModule.Data.Repositories
+  nameWithType: Eraware.Modules.MyModule.Data.Repositories
+- uid: Eraware.Modules.MyModule.Data.Repositories.IItemRepository
+  name: IItemRepository
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IItemRepository.html
+  commentId: T:Eraware.Modules.MyModule.Data.Repositories.IItemRepository
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IItemRepository
+  nameWithType: IItemRepository
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1
+  name: IRepository<T>
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.html
+  commentId: T:Eraware.Modules.MyModule.Data.Repositories.IRepository`1
+  name.vb: IRepository(Of T)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T)
+  nameWithType: IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.CreateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name: CreateAsync(T, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.CreateAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_CreateAsync__0_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.CreateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name.vb: CreateAsync(T, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.CreateAsync(T, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).CreateAsync(T, Integer, System.Threading.CancellationToken)
+  nameWithType: IRepository<T>.CreateAsync(T, int, CancellationToken)
+  nameWithType.vb: IRepository(Of T).CreateAsync(T, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.CreateAsync*
+  name: CreateAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.CreateAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.CreateAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.CreateAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).CreateAsync
+  nameWithType: IRepository<T>.CreateAsync
+  nameWithType.vb: IRepository(Of T).CreateAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.DeleteAsync(System.Int32,System.Threading.CancellationToken)
+  name: DeleteAsync(int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.DeleteAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_DeleteAsync_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.DeleteAsync(System.Int32,System.Threading.CancellationToken)
+  name.vb: DeleteAsync(Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.DeleteAsync(int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).DeleteAsync(Integer, System.Threading.CancellationToken)
+  nameWithType: IRepository<T>.DeleteAsync(int, CancellationToken)
+  nameWithType.vb: IRepository(Of T).DeleteAsync(Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.DeleteAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.DeleteAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.DeleteAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).DeleteAsync
+  nameWithType: IRepository<T>.DeleteAsync
+  nameWithType.vb: IRepository(Of T).DeleteAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.Get
+  name: Get()
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.Get.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_Get
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.Get
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.Get()
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).Get()
+  nameWithType: IRepository<T>.Get()
+  nameWithType.vb: IRepository(Of T).Get()
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.Get*
+  name: Get
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.Get.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.Get
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.Get
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).Get
+  nameWithType: IRepository<T>.Get
+  nameWithType.vb: IRepository(Of T).Get
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetAllAsync(System.Threading.CancellationToken)
+  name: GetAllAsync(CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetAllAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_GetAllAsync_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetAllAsync(System.Threading.CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetAllAsync(System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetAllAsync(System.Threading.CancellationToken)
+  nameWithType: IRepository<T>.GetAllAsync(CancellationToken)
+  nameWithType.vb: IRepository(Of T).GetAllAsync(CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetAllAsync*
+  name: GetAllAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetAllAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetAllAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetAllAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetAllAsync
+  nameWithType: IRepository<T>.GetAllAsync
+  nameWithType.vb: IRepository(Of T).GetAllAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)
+  name: GetByIdAsync(int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetByIdAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_GetByIdAsync_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)
+  name.vb: GetByIdAsync(Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetByIdAsync(int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetByIdAsync(Integer, System.Threading.CancellationToken)
+  nameWithType: IRepository<T>.GetByIdAsync(int, CancellationToken)
+  nameWithType.vb: IRepository(Of T).GetByIdAsync(Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetByIdAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetByIdAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetByIdAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetByIdAsync
+  nameWithType: IRepository<T>.GetByIdAsync
+  nameWithType.vb: IRepository(Of T).GetByIdAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetPageAsync(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean,System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[])
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetPageAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_GetPageAsync_System_Int32_System_Int32_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Boolean_System_Threading_CancellationToken_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetPageAsync(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean,System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: GetPageAsync(Integer, Integer, Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Object)), Boolean, CancellationToken, ParamArray Expression(Of Func(Of T, Object))())
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetPageAsync(int, int, System.Linq.Expressions.Expression<System.Func<T, bool>>, System.Linq.Expressions.Expression<System.Func<T, object>>, bool, System.Threading.CancellationToken, params System.Linq.Expressions.Expression<System.Func<T, object>>[])
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetPageAsync(Integer, Integer, System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)), System.Linq.Expressions.Expression(Of System.Func(Of T, Object)), Boolean, System.Threading.CancellationToken, ParamArray System.Linq.Expressions.Expression(Of System.Func(Of T, Object))())
+  nameWithType: IRepository<T>.GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[])
+  nameWithType.vb: IRepository(Of T).GetPageAsync(Integer, Integer, Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Object)), Boolean, CancellationToken, ParamArray Expression(Of Func(Of T, Object))())
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetPageAsync*
+  name: GetPageAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.GetPageAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.GetPageAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.GetPageAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).GetPageAsync
+  nameWithType: IRepository<T>.GetPageAsync
+  nameWithType.vb: IRepository(Of T).GetPageAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.UpdateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name: UpdateAsync(T, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.UpdateAsync.html#Eraware_Modules_MyModule_Data_Repositories_IRepository_1_UpdateAsync__0_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.UpdateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name.vb: UpdateAsync(T, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.UpdateAsync(T, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).UpdateAsync(T, Integer, System.Threading.CancellationToken)
+  nameWithType: IRepository<T>.UpdateAsync(T, int, CancellationToken)
+  nameWithType.vb: IRepository(Of T).UpdateAsync(T, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.IRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.IRepository-1.UpdateAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.IRepository`1.UpdateAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.IRepository<T>.UpdateAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.IRepository(Of T).UpdateAsync
+  nameWithType: IRepository<T>.UpdateAsync
+  nameWithType.vb: IRepository(Of T).UpdateAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1
+  name: PagedList<T>
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.html
+  commentId: T:Eraware.Modules.MyModule.Data.Repositories.PagedList`1
+  name.vb: PagedList(Of T)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T)
+  nameWithType: PagedList<T>
+  nameWithType.vb: PagedList(Of T)
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32,System.Int32,System.Int32,System.Int32)
+  name: PagedList(IEnumerable<T>, int, int, int, int)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.-ctor.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: New(IEnumerable(Of T), Integer, Integer, Integer, Integer)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PagedList(System.Collections.Generic.IEnumerable<T>, int, int, int, int)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).New(System.Collections.Generic.IEnumerable(Of T), Integer, Integer, Integer, Integer)
+  nameWithType: PagedList<T>.PagedList(IEnumerable<T>, int, int, int, int)
+  nameWithType.vb: PagedList(Of T).New(IEnumerable(Of T), Integer, Integer, Integer, Integer)
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.#ctor*
+  name: PagedList
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PagedList
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).New
+  nameWithType: PagedList<T>.PagedList
+  nameWithType.vb: PagedList(Of T).New
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Items
+  name: Items
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Items.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1_Items
+  commentId: P:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Items
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Items
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).Items
+  nameWithType: PagedList<T>.Items
+  nameWithType.vb: PagedList(Of T).Items
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Items*
+  name: Items
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Items.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Items
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Items
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).Items
+  nameWithType: PagedList<T>.Items
+  nameWithType.vb: PagedList(Of T).Items
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Page
+  name: Page
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Page.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1_Page
+  commentId: P:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Page
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Page
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).Page
+  nameWithType: PagedList<T>.Page
+  nameWithType.vb: PagedList(Of T).Page
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Page*
+  name: Page
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.Page.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.Page
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.Page
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).Page
+  nameWithType: PagedList<T>.Page
+  nameWithType.vb: PagedList(Of T).Page
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageCount
+  name: PageCount
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageCount.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1_PageCount
+  commentId: P:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageCount
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageCount
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).PageCount
+  nameWithType: PagedList<T>.PageCount
+  nameWithType.vb: PagedList(Of T).PageCount
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageCount*
+  name: PageCount
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageCount.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageCount
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageCount
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).PageCount
+  nameWithType: PagedList<T>.PageCount
+  nameWithType.vb: PagedList(Of T).PageCount
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageSize
+  name: PageSize
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageSize.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1_PageSize
+  commentId: P:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageSize
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageSize
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).PageSize
+  nameWithType: PagedList<T>.PageSize
+  nameWithType.vb: PagedList(Of T).PageSize
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageSize*
+  name: PageSize
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.PageSize.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.PageSize
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.PageSize
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).PageSize
+  nameWithType: PagedList<T>.PageSize
+  nameWithType.vb: PagedList(Of T).PageSize
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.ResultCount
+  name: ResultCount
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.ResultCount.html#Eraware_Modules_MyModule_Data_Repositories_PagedList_1_ResultCount
+  commentId: P:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.ResultCount
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.ResultCount
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).ResultCount
+  nameWithType: PagedList<T>.ResultCount
+  nameWithType.vb: PagedList(Of T).ResultCount
+- uid: Eraware.Modules.MyModule.Data.Repositories.PagedList`1.ResultCount*
+  name: ResultCount
+  href: api/Eraware.Modules.MyModule.Data.Repositories.PagedList-1.ResultCount.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.PagedList`1.ResultCount
+  fullName: Eraware.Modules.MyModule.Data.Repositories.PagedList<T>.ResultCount
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.PagedList(Of T).ResultCount
+  nameWithType: PagedList<T>.ResultCount
+  nameWithType.vb: PagedList(Of T).ResultCount
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1
+  name: Repository<T>
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.html
+  commentId: T:Eraware.Modules.MyModule.Data.Repositories.Repository`1
+  name.vb: Repository(Of T)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T)
+  nameWithType: Repository<T>
+  nameWithType.vb: Repository(Of T)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.#ctor(Eraware.Modules.MyModule.Data.ModuleDbContext,Eraware.Modules.MyModule.Providers.IDateTimeProvider)
+  name: Repository(ModuleDbContext, IDateTimeProvider)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.-ctor.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1__ctor_Eraware_Modules_MyModule_Data_ModuleDbContext_Eraware_Modules_MyModule_Providers_IDateTimeProvider_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.#ctor(Eraware.Modules.MyModule.Data.ModuleDbContext,Eraware.Modules.MyModule.Providers.IDateTimeProvider)
+  name.vb: New(ModuleDbContext, IDateTimeProvider)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Repository(Eraware.Modules.MyModule.Data.ModuleDbContext, Eraware.Modules.MyModule.Providers.IDateTimeProvider)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).New(Eraware.Modules.MyModule.Data.ModuleDbContext, Eraware.Modules.MyModule.Providers.IDateTimeProvider)
+  nameWithType: Repository<T>.Repository(ModuleDbContext, IDateTimeProvider)
+  nameWithType.vb: Repository(Of T).New(ModuleDbContext, IDateTimeProvider)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.#ctor*
+  name: Repository
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Repository
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).New
+  nameWithType: Repository<T>.Repository
+  nameWithType.vb: Repository(Of T).New
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.CreateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name: CreateAsync(T, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.CreateAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_CreateAsync__0_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.CreateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name.vb: CreateAsync(T, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.CreateAsync(T, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).CreateAsync(T, Integer, System.Threading.CancellationToken)
+  nameWithType: Repository<T>.CreateAsync(T, int, CancellationToken)
+  nameWithType.vb: Repository(Of T).CreateAsync(T, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.CreateAsync*
+  name: CreateAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.CreateAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.CreateAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.CreateAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).CreateAsync
+  nameWithType: Repository<T>.CreateAsync
+  nameWithType.vb: Repository(Of T).CreateAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.DeleteAsync(System.Int32,System.Threading.CancellationToken)
+  name: DeleteAsync(int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.DeleteAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_DeleteAsync_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.DeleteAsync(System.Int32,System.Threading.CancellationToken)
+  name.vb: DeleteAsync(Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.DeleteAsync(int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).DeleteAsync(Integer, System.Threading.CancellationToken)
+  nameWithType: Repository<T>.DeleteAsync(int, CancellationToken)
+  nameWithType.vb: Repository(Of T).DeleteAsync(Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.DeleteAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.DeleteAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.DeleteAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).DeleteAsync
+  nameWithType: Repository<T>.DeleteAsync
+  nameWithType.vb: Repository(Of T).DeleteAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.Get
+  name: Get()
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.Get.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_Get
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.Get
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Get()
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).Get()
+  nameWithType: Repository<T>.Get()
+  nameWithType.vb: Repository(Of T).Get()
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.Get*
+  name: Get
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.Get.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.Get
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.Get
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).Get
+  nameWithType: Repository<T>.Get
+  nameWithType.vb: Repository(Of T).Get
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetAllAsync(System.Threading.CancellationToken)
+  name: GetAllAsync(CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetAllAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_GetAllAsync_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetAllAsync(System.Threading.CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetAllAsync(System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetAllAsync(System.Threading.CancellationToken)
+  nameWithType: Repository<T>.GetAllAsync(CancellationToken)
+  nameWithType.vb: Repository(Of T).GetAllAsync(CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetAllAsync*
+  name: GetAllAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetAllAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetAllAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetAllAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetAllAsync
+  nameWithType: Repository<T>.GetAllAsync
+  nameWithType.vb: Repository(Of T).GetAllAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)
+  name: GetByIdAsync(int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetByIdAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_GetByIdAsync_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)
+  name.vb: GetByIdAsync(Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetByIdAsync(int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetByIdAsync(Integer, System.Threading.CancellationToken)
+  nameWithType: Repository<T>.GetByIdAsync(int, CancellationToken)
+  nameWithType.vb: Repository(Of T).GetByIdAsync(Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetByIdAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetByIdAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetByIdAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetByIdAsync
+  nameWithType: Repository<T>.GetByIdAsync
+  nameWithType.vb: Repository(Of T).GetByIdAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetPageAsync(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean,System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[])
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetPageAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_GetPageAsync_System_Int32_System_Int32_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Boolean_System_Threading_CancellationToken_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetPageAsync(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean,System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: GetPageAsync(Integer, Integer, Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Object)), Boolean, CancellationToken, ParamArray Expression(Of Func(Of T, Object))())
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetPageAsync(int, int, System.Linq.Expressions.Expression<System.Func<T, bool>>, System.Linq.Expressions.Expression<System.Func<T, object>>, bool, System.Threading.CancellationToken, params System.Linq.Expressions.Expression<System.Func<T, object>>[])
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetPageAsync(Integer, Integer, System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)), System.Linq.Expressions.Expression(Of System.Func(Of T, Object)), Boolean, System.Threading.CancellationToken, ParamArray System.Linq.Expressions.Expression(Of System.Func(Of T, Object))())
+  nameWithType: Repository<T>.GetPageAsync(int, int, Expression<Func<T, bool>>, Expression<Func<T, object>>, bool, CancellationToken, params Expression<Func<T, object>>[])
+  nameWithType.vb: Repository(Of T).GetPageAsync(Integer, Integer, Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Object)), Boolean, CancellationToken, ParamArray Expression(Of Func(Of T, Object))())
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetPageAsync*
+  name: GetPageAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.GetPageAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.GetPageAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.GetPageAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).GetPageAsync
+  nameWithType: Repository<T>.GetPageAsync
+  nameWithType.vb: Repository(Of T).GetPageAsync
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.UpdateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name: UpdateAsync(T, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.UpdateAsync.html#Eraware_Modules_MyModule_Data_Repositories_Repository_1_UpdateAsync__0_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Data.Repositories.Repository`1.UpdateAsync(`0,System.Int32,System.Threading.CancellationToken)
+  name.vb: UpdateAsync(T, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.UpdateAsync(T, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).UpdateAsync(T, Integer, System.Threading.CancellationToken)
+  nameWithType: Repository<T>.UpdateAsync(T, int, CancellationToken)
+  nameWithType.vb: Repository(Of T).UpdateAsync(T, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Data.Repositories.Repository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/Eraware.Modules.MyModule.Data.Repositories.Repository-1.UpdateAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Data.Repositories.Repository`1.UpdateAsync
+  fullName: Eraware.Modules.MyModule.Data.Repositories.Repository<T>.UpdateAsync
+  fullName.vb: Eraware.Modules.MyModule.Data.Repositories.Repository(Of T).UpdateAsync
+  nameWithType: Repository<T>.UpdateAsync
+  nameWithType.vb: Repository(Of T).UpdateAsync
+- uid: Eraware.Modules.MyModule.Providers
+  name: Eraware.Modules.MyModule.Providers
+  href: api/Eraware.Modules.MyModule.Providers.html
+  commentId: N:Eraware.Modules.MyModule.Providers
+  fullName: Eraware.Modules.MyModule.Providers
+  nameWithType: Eraware.Modules.MyModule.Providers
+- uid: Eraware.Modules.MyModule.Providers.IDateTimeProvider
+  name: IDateTimeProvider
+  href: api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.html
+  commentId: T:Eraware.Modules.MyModule.Providers.IDateTimeProvider
+  fullName: Eraware.Modules.MyModule.Providers.IDateTimeProvider
+  nameWithType: IDateTimeProvider
+- uid: Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow
+  name: GetUtcNow()
+  href: api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow.html#Eraware_Modules_MyModule_Providers_IDateTimeProvider_GetUtcNow
+  commentId: M:Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow
+  fullName: Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow()
+  nameWithType: IDateTimeProvider.GetUtcNow()
+- uid: Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow*
+  name: GetUtcNow
+  href: api/Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow.html
+  commentId: Overload:Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow
+  fullName: Eraware.Modules.MyModule.Providers.IDateTimeProvider.GetUtcNow
+  nameWithType: IDateTimeProvider.GetUtcNow
+- uid: Eraware.Modules.MyModule.Services
+  name: Eraware.Modules.MyModule.Services
+  href: api/Eraware.Modules.MyModule.Services.html
+- uid: Eraware.Modules.MyModule.Services.Items
+  name: Eraware.Modules.MyModule.Services.Items
+  href: api/Eraware.Modules.MyModule.Services.Items.html
+  commentId: N:Eraware.Modules.MyModule.Services.Items
+  fullName: Eraware.Modules.MyModule.Services.Items
+  nameWithType: Eraware.Modules.MyModule.Services.Items
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDTO
+  name: CreateItemDTO
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.CreateItemDTO
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDTO
+  nameWithType: CreateItemDTO
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description.html#Eraware_Modules_MyModule_Services_Items_CreateItemDTO_Description
+  commentId: P:Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description
+  nameWithType: CreateItemDTO.Description
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description*
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Description
+  nameWithType: CreateItemDTO.Description
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name.html#Eraware_Modules_MyModule_Services_Items_CreateItemDTO_Name
+  commentId: P:Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name
+  nameWithType: CreateItemDTO.Name
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name*
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDTO.Name
+  nameWithType: CreateItemDTO.Name
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator
+  name: CreateItemDtoValidator
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator
+  nameWithType: CreateItemDtoValidator
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.#ctor(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  name: CreateItemDtoValidator(ILocalizationService)
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.-ctor.html#Eraware_Modules_MyModule_Services_Items_CreateItemDtoValidator__ctor_Eraware_Modules_MyModule_Services_Localization_ILocalizationService_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.#ctor(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  name.vb: New(ILocalizationService)
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.CreateItemDtoValidator(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.New(Eraware.Modules.MyModule.Services.Localization.ILocalizationService)
+  nameWithType: CreateItemDtoValidator.CreateItemDtoValidator(ILocalizationService)
+  nameWithType.vb: CreateItemDtoValidator.New(ILocalizationService)
+- uid: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.#ctor*
+  name: CreateItemDtoValidator
+  href: api/Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.CreateItemDtoValidator
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator.New
+  nameWithType: CreateItemDtoValidator.CreateItemDtoValidator
+  nameWithType.vb: CreateItemDtoValidator.New
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO
+  name: GetItemsPageDTO
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO
+  nameWithType: GetItemsPageDTO
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending
+  name: Descending
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending.html#Eraware_Modules_MyModule_Services_Items_GetItemsPageDTO_Descending
+  commentId: P:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending
+  nameWithType: GetItemsPageDTO.Descending
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending*
+  name: Descending
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Descending
+  nameWithType: GetItemsPageDTO.Descending
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page
+  name: Page
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page.html#Eraware_Modules_MyModule_Services_Items_GetItemsPageDTO_Page
+  commentId: P:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page
+  nameWithType: GetItemsPageDTO.Page
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page*
+  name: Page
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Page
+  nameWithType: GetItemsPageDTO.Page
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize
+  name: PageSize
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize.html#Eraware_Modules_MyModule_Services_Items_GetItemsPageDTO_PageSize
+  commentId: P:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize
+  nameWithType: GetItemsPageDTO.PageSize
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize*
+  name: PageSize
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.PageSize
+  nameWithType: GetItemsPageDTO.PageSize
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query
+  name: Query
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query.html#Eraware_Modules_MyModule_Services_Items_GetItemsPageDTO_Query
+  commentId: P:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query
+  nameWithType: GetItemsPageDTO.Query
+- uid: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query*
+  name: Query
+  href: api/Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query
+  fullName: Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO.Query
+  nameWithType: GetItemsPageDTO.Query
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService
+  name: IItemService
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.IItemService
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService
+  nameWithType: IItemService
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name: CreateItemAsync(CreateItemDTO, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync.html#Eraware_Modules_MyModule_Services_Items_IItemService_CreateItemAsync_Eraware_Modules_MyModule_Services_Items_CreateItemDTO_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name.vb: CreateItemAsync(CreateItemDTO, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO, Integer, System.Threading.CancellationToken)
+  nameWithType: IItemService.CreateItemAsync(CreateItemDTO, int, CancellationToken)
+  nameWithType.vb: IItemService.CreateItemAsync(CreateItemDTO, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync*
+  name: CreateItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.CreateItemAsync
+  nameWithType: IItemService.CreateItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync(System.Int32)
+  name: DeleteItemAsync(int)
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync.html#Eraware_Modules_MyModule_Services_Items_IItemService_DeleteItemAsync_System_Int32_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync(System.Int32)
+  name.vb: DeleteItemAsync(Integer)
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync(int)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync(Integer)
+  nameWithType: IItemService.DeleteItemAsync(int)
+  nameWithType.vb: IItemService.DeleteItemAsync(Integer)
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync*
+  name: DeleteItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.DeleteItemAsync
+  nameWithType: IItemService.DeleteItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync(System.String,System.Int32,System.Int32,System.Boolean)
+  name: GetItemsPageAsync(string, int, int, bool)
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync.html#Eraware_Modules_MyModule_Services_Items_IItemService_GetItemsPageAsync_System_String_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync(System.String,System.Int32,System.Int32,System.Boolean)
+  name.vb: GetItemsPageAsync(String, Integer, Integer, Boolean)
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync(string, int, int, bool)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync(String, Integer, Integer, Boolean)
+  nameWithType: IItemService.GetItemsPageAsync(string, int, int, bool)
+  nameWithType.vb: IItemService.GetItemsPageAsync(String, Integer, Integer, Boolean)
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync*
+  name: GetItemsPageAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.GetItemsPageAsync
+  nameWithType: IItemService.GetItemsPageAsync
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name: UpdateItemAsync(UpdateItemDTO, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync.html#Eraware_Modules_MyModule_Services_Items_IItemService_UpdateItemAsync_Eraware_Modules_MyModule_Services_Items_UpdateItemDTO_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name.vb: UpdateItemAsync(UpdateItemDTO, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO, Integer, System.Threading.CancellationToken)
+  nameWithType: IItemService.UpdateItemAsync(UpdateItemDTO, int, CancellationToken)
+  nameWithType.vb: IItemService.UpdateItemAsync(UpdateItemDTO, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync*
+  name: UpdateItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.IItemService.UpdateItemAsync
+  nameWithType: IItemService.UpdateItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService
+  name: ItemService
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.ItemService
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService
+  nameWithType: ItemService
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.#ctor(Eraware.Modules.MyModule.Data.Repositories.IItemRepository,FluentValidation.IValidator{Eraware.Modules.MyModule.Services.Items.CreateItemDTO},FluentValidation.IValidator{Eraware.Modules.MyModule.Services.Items.UpdateItemDTO})
+  name: ItemService(IItemRepository, IValidator<CreateItemDTO>, IValidator<UpdateItemDTO>)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.-ctor.html#Eraware_Modules_MyModule_Services_Items_ItemService__ctor_Eraware_Modules_MyModule_Data_Repositories_IItemRepository_FluentValidation_IValidator_Eraware_Modules_MyModule_Services_Items_CreateItemDTO__FluentValidation_IValidator_Eraware_Modules_MyModule_Services_Items_UpdateItemDTO__
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemService.#ctor(Eraware.Modules.MyModule.Data.Repositories.IItemRepository,FluentValidation.IValidator{Eraware.Modules.MyModule.Services.Items.CreateItemDTO},FluentValidation.IValidator{Eraware.Modules.MyModule.Services.Items.UpdateItemDTO})
+  name.vb: New(IItemRepository, IValidator(Of CreateItemDTO), IValidator(Of UpdateItemDTO))
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.ItemService(Eraware.Modules.MyModule.Data.Repositories.IItemRepository, FluentValidation.IValidator<Eraware.Modules.MyModule.Services.Items.CreateItemDTO>, FluentValidation.IValidator<Eraware.Modules.MyModule.Services.Items.UpdateItemDTO>)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.New(Eraware.Modules.MyModule.Data.Repositories.IItemRepository, FluentValidation.IValidator(Of Eraware.Modules.MyModule.Services.Items.CreateItemDTO), FluentValidation.IValidator(Of Eraware.Modules.MyModule.Services.Items.UpdateItemDTO))
+  nameWithType: ItemService.ItemService(IItemRepository, IValidator<CreateItemDTO>, IValidator<UpdateItemDTO>)
+  nameWithType.vb: ItemService.New(IItemRepository, IValidator(Of CreateItemDTO), IValidator(Of UpdateItemDTO))
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.#ctor*
+  name: ItemService
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemService.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.ItemService
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.New
+  nameWithType: ItemService.ItemService
+  nameWithType.vb: ItemService.New
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name: CreateItemAsync(CreateItemDTO, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync.html#Eraware_Modules_MyModule_Services_Items_ItemService_CreateItemAsync_Eraware_Modules_MyModule_Services_Items_CreateItemDTO_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name.vb: CreateItemAsync(CreateItemDTO, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync(Eraware.Modules.MyModule.Services.Items.CreateItemDTO, Integer, System.Threading.CancellationToken)
+  nameWithType: ItemService.CreateItemAsync(CreateItemDTO, int, CancellationToken)
+  nameWithType.vb: ItemService.CreateItemAsync(CreateItemDTO, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync*
+  name: CreateItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.CreateItemAsync
+  nameWithType: ItemService.CreateItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync(System.Int32)
+  name: DeleteItemAsync(int)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync.html#Eraware_Modules_MyModule_Services_Items_ItemService_DeleteItemAsync_System_Int32_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync(System.Int32)
+  name.vb: DeleteItemAsync(Integer)
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync(int)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync(Integer)
+  nameWithType: ItemService.DeleteItemAsync(int)
+  nameWithType.vb: ItemService.DeleteItemAsync(Integer)
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync*
+  name: DeleteItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.DeleteItemAsync
+  nameWithType: ItemService.DeleteItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync(System.String,System.Int32,System.Int32,System.Boolean)
+  name: GetItemsPageAsync(string, int, int, bool)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync.html#Eraware_Modules_MyModule_Services_Items_ItemService_GetItemsPageAsync_System_String_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync(System.String,System.Int32,System.Int32,System.Boolean)
+  name.vb: GetItemsPageAsync(String, Integer, Integer, Boolean)
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync(string, int, int, bool)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync(String, Integer, Integer, Boolean)
+  nameWithType: ItemService.GetItemsPageAsync(string, int, int, bool)
+  nameWithType.vb: ItemService.GetItemsPageAsync(String, Integer, Integer, Boolean)
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync*
+  name: GetItemsPageAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.GetItemsPageAsync
+  nameWithType: ItemService.GetItemsPageAsync
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name: UpdateItemAsync(UpdateItemDTO, int, CancellationToken)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync.html#Eraware_Modules_MyModule_Services_Items_ItemService_UpdateItemAsync_Eraware_Modules_MyModule_Services_Items_UpdateItemDTO_System_Int32_System_Threading_CancellationToken_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO,System.Int32,System.Threading.CancellationToken)
+  name.vb: UpdateItemAsync(UpdateItemDTO, Integer, CancellationToken)
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO, int, System.Threading.CancellationToken)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync(Eraware.Modules.MyModule.Services.Items.UpdateItemDTO, Integer, System.Threading.CancellationToken)
+  nameWithType: ItemService.UpdateItemAsync(UpdateItemDTO, int, CancellationToken)
+  nameWithType.vb: ItemService.UpdateItemAsync(UpdateItemDTO, Integer, CancellationToken)
+- uid: Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync*
+  name: UpdateItemAsync
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemService.UpdateItemAsync
+  nameWithType: ItemService.UpdateItemAsync
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel
+  name: ItemViewModel
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.ItemViewModel
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel
+  nameWithType: ItemViewModel
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor
+  name: ItemViewModel()
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html#Eraware_Modules_MyModule_Services_Items_ItemViewModel__ctor
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor
+  name.vb: New()
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.ItemViewModel()
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemViewModel.New()
+  nameWithType: ItemViewModel.ItemViewModel()
+  nameWithType.vb: ItemViewModel.New()
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor(Eraware.Modules.MyModule.Data.Entities.Item)
+  name: ItemViewModel(Item)
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html#Eraware_Modules_MyModule_Services_Items_ItemViewModel__ctor_Eraware_Modules_MyModule_Data_Entities_Item_
+  commentId: M:Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor(Eraware.Modules.MyModule.Data.Entities.Item)
+  name.vb: New(Item)
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.ItemViewModel(Eraware.Modules.MyModule.Data.Entities.Item)
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemViewModel.New(Eraware.Modules.MyModule.Data.Entities.Item)
+  nameWithType: ItemViewModel.ItemViewModel(Item)
+  nameWithType.vb: ItemViewModel.New(Item)
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor*
+  name: ItemViewModel
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemViewModel.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.ItemViewModel
+  fullName.vb: Eraware.Modules.MyModule.Services.Items.ItemViewModel.New
+  nameWithType: ItemViewModel.ItemViewModel
+  nameWithType.vb: ItemViewModel.New
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description.html#Eraware_Modules_MyModule_Services_Items_ItemViewModel_Description
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description
+  nameWithType: ItemViewModel.Description
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description*
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Description
+  nameWithType: ItemViewModel.Description
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id
+  name: Id
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id.html#Eraware_Modules_MyModule_Services_Items_ItemViewModel_Id
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id
+  nameWithType: ItemViewModel.Id
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id*
+  name: Id
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Id
+  nameWithType: ItemViewModel.Id
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name.html#Eraware_Modules_MyModule_Services_Items_ItemViewModel_Name
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name
+  nameWithType: ItemViewModel.Name
+- uid: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name*
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemViewModel.Name
+  nameWithType: ItemViewModel.Name
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel
+  name: ItemsPageViewModel
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel
+  nameWithType: ItemsPageViewModel
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items
+  name: Items
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items.html#Eraware_Modules_MyModule_Services_Items_ItemsPageViewModel_Items
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items
+  nameWithType: ItemsPageViewModel.Items
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items*
+  name: Items
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Items
+  nameWithType: ItemsPageViewModel.Items
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page
+  name: Page
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page.html#Eraware_Modules_MyModule_Services_Items_ItemsPageViewModel_Page
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page
+  nameWithType: ItemsPageViewModel.Page
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page*
+  name: Page
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.Page
+  nameWithType: ItemsPageViewModel.Page
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount
+  name: PageCount
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount.html#Eraware_Modules_MyModule_Services_Items_ItemsPageViewModel_PageCount
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount
+  nameWithType: ItemsPageViewModel.PageCount
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount*
+  name: PageCount
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.PageCount
+  nameWithType: ItemsPageViewModel.PageCount
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount
+  name: ResultCount
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount.html#Eraware_Modules_MyModule_Services_Items_ItemsPageViewModel_ResultCount
+  commentId: P:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount
+  nameWithType: ItemsPageViewModel.ResultCount
+- uid: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount*
+  name: ResultCount
+  href: api/Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount
+  fullName: Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel.ResultCount
+  nameWithType: ItemsPageViewModel.ResultCount
+- uid: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO
+  name: UpdateItemDTO
+  href: api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.html
+  commentId: T:Eraware.Modules.MyModule.Services.Items.UpdateItemDTO
+  fullName: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO
+  nameWithType: UpdateItemDTO
+- uid: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id
+  name: Id
+  href: api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id.html#Eraware_Modules_MyModule_Services_Items_UpdateItemDTO_Id
+  commentId: P:Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id
+  fullName: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id
+  nameWithType: UpdateItemDTO.Id
+- uid: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id*
+  name: Id
+  href: api/Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id
+  fullName: Eraware.Modules.MyModule.Services.Items.UpdateItemDTO.Id
+  nameWithType: UpdateItemDTO.Id
+- uid: Eraware.Modules.MyModule.Services.Localization
+  name: Eraware.Modules.MyModule.Services.Localization
+  href: api/Eraware.Modules.MyModule.Services.Localization.html
+  commentId: N:Eraware.Modules.MyModule.Services.Localization
+  fullName: Eraware.Modules.MyModule.Services.Localization
+  nameWithType: Eraware.Modules.MyModule.Services.Localization
+- uid: Eraware.Modules.MyModule.Services.Localization.ILocalizationService
+  name: ILocalizationService
+  href: api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.html
+  commentId: T:Eraware.Modules.MyModule.Services.Localization.ILocalizationService
+  fullName: Eraware.Modules.MyModule.Services.Localization.ILocalizationService
+  nameWithType: ILocalizationService
+- uid: Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel
+  name: ViewModel
+  href: api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel.html#Eraware_Modules_MyModule_Services_Localization_ILocalizationService_ViewModel
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel
+  fullName: Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel
+  nameWithType: ILocalizationService.ViewModel
+- uid: Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel*
+  name: ViewModel
+  href: api/Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel
+  fullName: Eraware.Modules.MyModule.Services.Localization.ILocalizationService.ViewModel
+  nameWithType: ILocalizationService.ViewModel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationService
+  name: LocalizationService
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.html
+  commentId: T:Eraware.Modules.MyModule.Services.Localization.LocalizationService
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationService
+  nameWithType: LocalizationService
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationService.#ctor(DotNetNuke.Services.Localization.ILocalizationProvider)
+  name: LocalizationService(ILocalizationProvider)
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.-ctor.html#Eraware_Modules_MyModule_Services_Localization_LocalizationService__ctor_DotNetNuke_Services_Localization_ILocalizationProvider_
+  commentId: M:Eraware.Modules.MyModule.Services.Localization.LocalizationService.#ctor(DotNetNuke.Services.Localization.ILocalizationProvider)
+  name.vb: New(ILocalizationProvider)
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationService.LocalizationService(DotNetNuke.Services.Localization.ILocalizationProvider)
+  fullName.vb: Eraware.Modules.MyModule.Services.Localization.LocalizationService.New(DotNetNuke.Services.Localization.ILocalizationProvider)
+  nameWithType: LocalizationService.LocalizationService(ILocalizationProvider)
+  nameWithType.vb: LocalizationService.New(ILocalizationProvider)
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationService.#ctor*
+  name: LocalizationService
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.-ctor.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationService.#ctor
+  name.vb: New
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationService.LocalizationService
+  fullName.vb: Eraware.Modules.MyModule.Services.Localization.LocalizationService.New
+  nameWithType: LocalizationService.LocalizationService
+  nameWithType.vb: LocalizationService.New
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel
+  name: ViewModel
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel.html#Eraware_Modules_MyModule_Services_Localization_LocalizationService_ViewModel
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel
+  nameWithType: LocalizationService.ViewModel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel*
+  name: ViewModel
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationService.ViewModel
+  nameWithType: LocalizationService.ViewModel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel
+  name: LocalizationViewModel
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.html
+  commentId: T:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel
+  nameWithType: LocalizationViewModel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation
+  name: ModelValidation
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_ModelValidation
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation
+  nameWithType: LocalizationViewModel.ModelValidation
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation*
+  name: ModelValidation
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidation
+  nameWithType: LocalizationViewModel.ModelValidation
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo
+  name: LocalizationViewModel.ModelValidationInfo
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.html
+  commentId: T:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo
+  nameWithType: LocalizationViewModel.ModelValidationInfo
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+  name: IdGreaterThanZero
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_ModelValidationInfo_IdGreaterThanZero
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+  nameWithType: LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero*
+  name: IdGreaterThanZero
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+  nameWithType: LocalizationViewModel.ModelValidationInfo.IdGreaterThanZero
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired
+  name: NameRequired
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_ModelValidationInfo_NameRequired
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired
+  nameWithType: LocalizationViewModel.ModelValidationInfo.NameRequired
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired*
+  name: NameRequired
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.ModelValidationInfo.NameRequired
+  nameWithType: LocalizationViewModel.ModelValidationInfo.NameRequired
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI
+  name: UI
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UI
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI
+  nameWithType: LocalizationViewModel.UI
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI*
+  name: UI
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UI
+  nameWithType: LocalizationViewModel.UI
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo
+  name: LocalizationViewModel.UIInfo
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.html
+  commentId: T:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo
+  nameWithType: LocalizationViewModel.UIInfo
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem
+  name: AddItem
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_AddItem
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem
+  nameWithType: LocalizationViewModel.UIInfo.AddItem
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem*
+  name: AddItem
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.AddItem
+  nameWithType: LocalizationViewModel.UIInfo.AddItem
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel
+  name: Cancel
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Cancel
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel
+  nameWithType: LocalizationViewModel.UIInfo.Cancel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel*
+  name: Cancel
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Cancel
+  nameWithType: LocalizationViewModel.UIInfo.Cancel
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create
+  name: Create
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Create
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create
+  nameWithType: LocalizationViewModel.UIInfo.Create
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create*
+  name: Create
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Create
+  nameWithType: LocalizationViewModel.UIInfo.Create
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete
+  name: Delete
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Delete
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete
+  nameWithType: LocalizationViewModel.UIInfo.Delete
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete*
+  name: Delete
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Delete
+  nameWithType: LocalizationViewModel.UIInfo.Delete
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm
+  name: DeleteItemConfirm
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_DeleteItemConfirm
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm
+  nameWithType: LocalizationViewModel.UIInfo.DeleteItemConfirm
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm*
+  name: DeleteItemConfirm
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.DeleteItemConfirm
+  nameWithType: LocalizationViewModel.UIInfo.DeleteItemConfirm
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Description
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description
+  nameWithType: LocalizationViewModel.UIInfo.Description
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description*
+  name: Description
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Description
+  nameWithType: LocalizationViewModel.UIInfo.Description
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit
+  name: Edit
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Edit
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit
+  nameWithType: LocalizationViewModel.UIInfo.Edit
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit*
+  name: Edit
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Edit
+  nameWithType: LocalizationViewModel.UIInfo.Edit
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore
+  name: LoadMore
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_LoadMore
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore
+  nameWithType: LocalizationViewModel.UIInfo.LoadMore
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore*
+  name: LoadMore
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.LoadMore
+  nameWithType: LocalizationViewModel.UIInfo.LoadMore
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Name
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name
+  nameWithType: LocalizationViewModel.UIInfo.Name
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name*
+  name: Name
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Name
+  nameWithType: LocalizationViewModel.UIInfo.Name
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No
+  name: No
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_No
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No
+  nameWithType: LocalizationViewModel.UIInfo.No
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No*
+  name: No
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.No
+  nameWithType: LocalizationViewModel.UIInfo.No
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save
+  name: Save
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Save
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save
+  nameWithType: LocalizationViewModel.UIInfo.Save
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save*
+  name: Save
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Save
+  nameWithType: LocalizationViewModel.UIInfo.Save
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder
+  name: SearchPlaceholder
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_SearchPlaceholder
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder
+  nameWithType: LocalizationViewModel.UIInfo.SearchPlaceholder
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder*
+  name: SearchPlaceholder
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.SearchPlaceholder
+  nameWithType: LocalizationViewModel.UIInfo.SearchPlaceholder
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems
+  name: ShownItems
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_ShownItems
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems
+  nameWithType: LocalizationViewModel.UIInfo.ShownItems
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems*
+  name: ShownItems
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.ShownItems
+  nameWithType: LocalizationViewModel.UIInfo.ShownItems
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes
+  name: Yes
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes.html#Eraware_Modules_MyModule_Services_Localization_LocalizationViewModel_UIInfo_Yes
+  commentId: P:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes
+  nameWithType: LocalizationViewModel.UIInfo.Yes
+- uid: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes*
+  name: Yes
+  href: api/Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes.html
+  commentId: Overload:Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes
+  fullName: Eraware.Modules.MyModule.Services.Localization.LocalizationViewModel.UIInfo.Yes
+  nameWithType: LocalizationViewModel.UIInfo.Yes
+- uid: Eraware.Modules.MyModule.Startup
+  name: Startup
+  href: api/Eraware.Modules.MyModule.Startup.html
+  commentId: T:Eraware.Modules.MyModule.Startup
+  fullName: Eraware.Modules.MyModule.Startup
+  nameWithType: Startup
+- uid: Eraware.Modules.MyModule.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: ConfigureServices(IServiceCollection)
+  href: api/Eraware.Modules.MyModule.Startup.ConfigureServices.html#Eraware_Modules_MyModule_Startup_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Eraware.Modules.MyModule.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Eraware.Modules.MyModule.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: Startup.ConfigureServices(IServiceCollection)
+- uid: Eraware.Modules.MyModule.Startup.ConfigureServices*
+  name: ConfigureServices
+  href: api/Eraware.Modules.MyModule.Startup.ConfigureServices.html
+  commentId: Overload:Eraware.Modules.MyModule.Startup.ConfigureServices
+  fullName: Eraware.Modules.MyModule.Startup.ConfigureServices
+  nameWithType: Startup.ConfigureServices

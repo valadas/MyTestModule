@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2026-08-02_23-30-24" tag="">
+  <assembly name="Eraware.Modules.MyModule">
+    <class name="Eraware.Modules.MyModule.Common.Extensions.IQueryableExtensions" coveredlines="0" coverablelines="3" totallines="33" coveredbranches="0" totalbranches="2" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Controllers.ItemController" coveredlines="0" coverablelines="20" totallines="110" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="6" />
+    <class name="Eraware.Modules.MyModule.Controllers.LocalizationController" coveredlines="0" coverablelines="4" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="2" />
+    <class name="Eraware.Modules.MyModule.Controllers.ModuleApiController" coveredlines="0" coverablelines="5" totallines="46" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="2" />
+    <class name="Eraware.Modules.MyModule.Controllers.ServiceRouteMapper" coveredlines="0" coverablelines="2" totallines="19" coveredbranches="0" totalbranches="2" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Data.Entities.BaseEntity" coveredlines="0" coverablelines="5" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="5" />
+    <class name="Eraware.Modules.MyModule.Data.Entities.Item" coveredlines="0" coverablelines="2" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="2" />
+    <class name="Eraware.Modules.MyModule.Data.ModuleDbContext" coveredlines="0" coverablelines="22" totallines="91" coveredbranches="0" totalbranches="12" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="6" />
+    <class name="Eraware.Modules.MyModule.Data.Repositories.ItemRepository" coveredlines="0" coverablelines="2" totallines="22" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Data.Repositories.PagedList`1" coveredlines="0" coverablelines="17" totallines="61" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="6" />
+    <class name="Eraware.Modules.MyModule.Data.Repositories.Repository`1" coveredlines="0" coverablelines="64" totallines="166" coveredbranches="0" totalbranches="20" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="8" />
+    <class name="Eraware.Modules.MyModule.Providers.DateTimeProvider" coveredlines="0" coverablelines="1" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Services.Items.CreateItemDTO" coveredlines="0" coverablelines="2" totallines="21" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="2" />
+    <class name="Eraware.Modules.MyModule.Services.Items.CreateItemDtoValidator" coveredlines="0" coverablelines="6" totallines="27" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Services.Items.GetItemsPageDTO" coveredlines="0" coverablelines="4" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="4" />
+    <class name="Eraware.Modules.MyModule.Services.Items.ItemService" coveredlines="0" coverablelines="47" totallines="112" coveredbranches="0" totalbranches="4" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="5" />
+    <class name="Eraware.Modules.MyModule.Services.Items.ItemsPageViewModel" coveredlines="0" coverablelines="4" totallines="34" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="4" />
+    <class name="Eraware.Modules.MyModule.Services.Items.ItemViewModel" coveredlines="0" coverablelines="10" totallines="48" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="5" />
+    <class name="Eraware.Modules.MyModule.Services.Items.UpdateItemDTO" coveredlines="0" coverablelines="1" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+    <class name="Eraware.Modules.MyModule.Services.Items.UpdateItemDtoValidator" coveredlines="0" coverablelines="7" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="0" fullcoveredcodeelements="0" totalcodeelements="1" />
+  </assembly>
+</coverage>

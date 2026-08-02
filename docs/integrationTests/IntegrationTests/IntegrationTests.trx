@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7b4b0569-516f-4485-a2e5-4d0f4840da43" name="@runnervmliwqe 2026-08-02 23:30:12" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-08-02T23:30:12.4778768+00:00" queuing="2026-08-02T23:30:12.4778769+00:00" start="2026-08-02T23:30:08.2940760+00:00" finish="2026-08-02T23:30:13.7798041+00:00" />
+  <TestSettings name="default" id="95a5999e-c272-4483-962a-24189637fd16">
+    <Deployment runDeploymentRoot="_runnervmliwqe_2026-08-02_23_30_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9e3bdc7a-ad08-4867-9fea-e378acc4d3c0" testId="1cacca20-3a91-a921-7a69-8e724a2019a7" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 10&quot;, expectedResults: 2)" computerName="runnervmliwqe" duration="00:00:00.0500000" startTime="2026-08-02T23:30:12.7876500+00:00" endTime="2026-08-02T23:30:12.8254270+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e3bdc7a-ad08-4867-9fea-e378acc4d3c0" />
+    <UnitTestResult executionId="c1e86286-c391-459c-b376-52b68ec38d39" testId="317fc975-d7e6-f0ba-8645-07db130c7ade" testName="IntegrationTests.Controllers.ItemControllerTests.DeleteItem_Deletes" computerName="runnervmliwqe" duration="00:00:00.0670000" startTime="2026-08-02T23:30:13.4662370+00:00" endTime="2026-08-02T23:30:13.4860080+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1e86286-c391-459c-b376-52b68ec38d39" />
+    <UnitTestResult executionId="40647b52-ae54-4605-b74c-a6290b9e4275" testId="e640582f-353e-056f-2e3d-8c294f40b9c5" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_PageSize0_DefaultsTo1" computerName="runnervmliwqe" duration="00:00:00.0350000" startTime="2026-08-02T23:30:13.5104210+00:00" endTime="2026-08-02T23:30:13.5300070+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40647b52-ae54-4605-b74c-a6290b9e4275" />
+    <UnitTestResult executionId="e9262907-34ff-4194-8f6d-3329ed30f8c3" testId="8e72cfa9-b443-4698-d30f-f54984591376" testName="IntegrationTests.Controllers.ItemControllerTests.DeleteItem_DeletesMissingItem" computerName="runnervmliwqe" duration="00:00:00.0190000" startTime="2026-08-02T23:30:13.5970310+00:00" endTime="2026-08-02T23:30:13.6167560+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9262907-34ff-4194-8f6d-3329ed30f8c3" />
+    <UnitTestResult executionId="9bc58682-c498-45b0-a39b-ee531fc08f38" testId="09a01a29-9f90-c98e-ccab-5c937defdc5a" testName="IntegrationTests.Controllers.ServiceRouteMapperTests.RegisterRoutes_RegistersAtLestOneRoute" computerName="runnervmliwqe" duration="00:00:00.2600000" startTime="2026-08-02T23:30:10.6905540+00:00" endTime="2026-08-02T23:30:10.9295240+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bc58682-c498-45b0-a39b-ee531fc08f38" />
+    <UnitTestResult executionId="2b9f4b5f-8f67-46ca-8b92-748b9dc9c386" testId="7bae40ff-9791-ccc8-c27c-21b83c71e081" testName="IntegrationTests.Controllers.ItemControllerTests.CreateItem_Creates(name: &quot;name2&quot;, description: &quot;description2&quot;)" computerName="runnervmliwqe" duration="00:00:00.0370000" startTime="2026-08-02T23:30:13.1571180+00:00" endTime="2026-08-02T23:30:13.1804730+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b9f4b5f-8f67-46ca-8b92-748b9dc9c386" />
+    <UnitTestResult executionId="51efdc65-3521-4be3-b46e-0c6af03a6757" testId="7e3c49ec-b106-ccfb-870c-2832424c4892" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 9, expectedPages: 1)" computerName="runnervmliwqe" duration="00:00:00.0380000" startTime="2026-08-02T23:30:12.9581220+00:00" endTime="2026-08-02T23:30:12.9839340+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51efdc65-3521-4be3-b46e-0c6af03a6757" />
+    <UnitTestResult executionId="bda0ea63-361c-4313-a61f-e049565b0947" testId="34cf2213-8fb1-0049-897f-e511f492c0dc" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_50Items_GetsProperly" computerName="runnervmliwqe" duration="00:00:00.0560000" startTime="2026-08-02T23:30:13.2589310+00:00" endTime="2026-08-02T23:30:13.2845330+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bda0ea63-361c-4313-a61f-e049565b0947" />
+    <UnitTestResult executionId="7fc0a39e-fe6b-4a57-b06b-7c41c3d99a68" testId="720de21b-123b-bc1c-35fd-23b8daf2e05d" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 101, expectedPages: 11)" computerName="runnervmliwqe" duration="00:00:00.0790000" startTime="2026-08-02T23:30:12.9071470+00:00" endTime="2026-08-02T23:30:12.9309950+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fc0a39e-fe6b-4a57-b06b-7c41c3d99a68" />
+    <UnitTestResult executionId="3207846a-49d2-4746-ae44-093170ebcac5" testId="04d40213-b56b-1456-de29-53faf92cd83b" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 1&quot;, expectedResults: 12)" computerName="runnervmliwqe" duration="00:00:00.0570000" startTime="2026-08-02T23:30:12.5833780+00:00" endTime="2026-08-02T23:30:12.6218940+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3207846a-49d2-4746-ae44-093170ebcac5" />
+    <UnitTestResult executionId="b7a914fa-af5d-4282-b79e-500f4e15c7c1" testId="83617fe6-c7e9-57fc-83bd-a46f898c96bc" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 2&quot;, expectedResults: 11)" computerName="runnervmliwqe" duration="00:00:00.0550000" startTime="2026-08-02T23:30:12.7220300+00:00" endTime="2026-08-02T23:30:12.7574240+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7a914fa-af5d-4282-b79e-500f4e15c7c1" />
+    <UnitTestResult executionId="40fc37d7-135a-460d-acb0-7f23bd2d9134" testId="7df1447e-5788-e173-7edd-0ffbb389b7d2" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_SortsDescending" computerName="runnervmliwqe" duration="00:00:00.0250000" startTime="2026-08-02T23:30:13.5536630+00:00" endTime="2026-08-02T23:30:13.5732230+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40fc37d7-135a-460d-acb0-7f23bd2d9134" />
+    <UnitTestResult executionId="9b354a37-8f66-41fb-8334-7709d729f965" testId="409dd1d1-253d-99cc-1f60-ca9211cee6c7" testName="IntegrationTests.Controllers.ItemControllerTests.CanEdit_Defaults_To_False" computerName="runnervmliwqe" duration="00:00:00.0040000" startTime="2026-08-02T23:30:13.3138070+00:00" endTime="2026-08-02T23:30:13.3388850+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b354a37-8f66-41fb-8334-7709d729f965" />
+    <UnitTestResult executionId="94562dca-7cb4-41d8-a1f8-8cfd7014ec66" testId="9b9e6a9f-e082-4c95-7625-e109e205a712" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 100&quot;, expectedResults: 1)" computerName="runnervmliwqe" duration="00:00:00.0590000" startTime="2026-08-02T23:30:12.6467860+00:00" endTime="2026-08-02T23:30:12.6882400+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94562dca-7cb4-41d8-a1f8-8cfd7014ec66" />
+    <UnitTestResult executionId="42a61ce3-b31c-426c-818e-38689f84167f" testId="93f091b9-51e2-f459-e6ff-2c01a2ff5b59" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;&quot;, expectedResults: 100)" computerName="runnervmliwqe" duration="00:00:00.0620000" startTime="2026-08-02T23:30:12.4680870+00:00" endTime="2026-08-02T23:30:12.5053740+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42a61ce3-b31c-426c-818e-38689f84167f" />
+    <UnitTestResult executionId="16703785-a0f7-4adf-86a6-93f597543f72" testId="2ff01883-7fa7-7760-1fa7-d15840a392df" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;1&quot;, expectedResults: 20)" computerName="runnervmliwqe" duration="00:00:00.0510000" startTime="2026-08-02T23:30:12.8562780+00:00" endTime="2026-08-02T23:30:12.8792860+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16703785-a0f7-4adf-86a6-93f597543f72" />
+    <UnitTestResult executionId="f2709613-903c-491e-b050-f3500f4e966a" testId="224e056e-038e-c009-a150-6b9b3d19a8ea" testName="IntegrationTests.Controllers.ItemControllerTests.CreateItem_Creates(name: &quot;name1&quot;, description: &quot;description1&quot;)" computerName="runnervmliwqe" duration="00:00:00.0090000" startTime="2026-08-02T23:30:13.2009290+00:00" endTime="2026-08-02T23:30:13.2272990+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2709613-903c-491e-b050-f3500f4e966a" />
+    <UnitTestResult executionId="85dc8ce9-c6af-42b1-bb5b-a06899c7279e" testId="ebbb7f6b-c777-7754-99b4-8afea8f44805" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Page0_DefaultsToPage1" computerName="runnervmliwqe" duration="00:00:00.0380000" startTime="2026-08-02T23:30:13.4217500+00:00" endTime="2026-08-02T23:30:13.4414600+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85dc8ce9-c6af-42b1-bb5b-a06899c7279e" />
+    <UnitTestResult executionId="d5e2e93b-0a6f-4a64-a7ba-bec24e7b7e00" testId="e619cf0d-58bb-53ba-5db6-ac87e5eed85e" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 1, expectedPages: 1)" computerName="runnervmliwqe" duration="00:00:00.0300000" startTime="2026-08-02T23:30:13.0109880+00:00" endTime="2026-08-02T23:30:13.0398930+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5e2e93b-0a6f-4a64-a7ba-bec24e7b7e00" />
+    <UnitTestResult executionId="3367e24f-c694-4d12-ab7d-a54f3025037d" testId="cb0e13cb-7549-11bb-c0cd-4ad89b7ceba3" testName="IntegrationTests.Controllers.ItemControllerTests.EditItem_Saves" computerName="runnervmliwqe" duration="00:00:00.0620000" startTime="2026-08-02T23:30:13.3734100+00:00" endTime="2026-08-02T23:30:13.3951410+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3367e24f-c694-4d12-ab7d-a54f3025037d" />
+    <UnitTestResult executionId="5d0ec9d8-3050-4095-b75b-16b40f869117" testId="a5bc4147-6463-6e84-51ca-f80cea6bcbdb" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Missing&quot;, expectedResults: 0)" computerName="runnervmliwqe" duration="00:00:00.0660000" startTime="2026-08-02T23:30:12.5296300+00:00" endTime="2026-08-02T23:30:12.5620950+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d0ec9d8-3050-4095-b75b-16b40f869117" />
+    <UnitTestResult executionId="fef24c6d-63d0-409f-9018-01418dee908e" testId="36167172-0f82-c142-899d-1fe7e63f46b8" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 99, expectedPages: 10)" computerName="runnervmliwqe" duration="00:00:00.0570000" startTime="2026-08-02T23:30:13.1040780+00:00" endTime="2026-08-02T23:30:13.1300810+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fef24c6d-63d0-409f-9018-01418dee908e" />
+    <UnitTestResult executionId="0521903b-f5a0-4d1a-9c8c-5736c9d3c591" testId="8db15930-b549-1886-51b3-f511798d6d86" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_SortsAscending" computerName="runnervmliwqe" duration="00:00:01.8050000" startTime="2026-08-02T23:30:10.6994800+00:00" endTime="2026-08-02T23:30:12.4353760+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0521903b-f5a0-4d1a-9c8c-5736c9d3c591" />
+    <UnitTestResult executionId="7bc32fc6-ac3b-4199-827f-c24e205a5caf" testId="71515543-abb0-b4d3-45b0-1fd132444a0a" testName="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 10, expectedPages: 1)" computerName="runnervmliwqe" duration="00:00:00.0300000" startTime="2026-08-02T23:30:13.0607700+00:00" endTime="2026-08-02T23:30:13.0842410+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bc32fc6-ac3b-4199-827f-c24e205a5caf" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 99, expectedPages: 10)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="36167172-0f82-c142-899d-1fe7e63f46b8">
+      <Execution id="fef24c6d-63d0-409f-9018-01418dee908e" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_GetsProperPages" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.CanEdit_Defaults_To_False" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="409dd1d1-253d-99cc-1f60-ca9211cee6c7">
+      <Execution id="9b354a37-8f66-41fb-8334-7709d729f965" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="CanEdit_Defaults_To_False" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 1, expectedPages: 1)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="e619cf0d-58bb-53ba-5db6-ac87e5eed85e">
+      <Execution id="d5e2e93b-0a6f-4a64-a7ba-bec24e7b7e00" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_GetsProperPages" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_PageSize0_DefaultsTo1" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="e640582f-353e-056f-2e3d-8c294f40b9c5">
+      <Execution id="40647b52-ae54-4605-b74c-a6290b9e4275" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_PageSize0_DefaultsTo1" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.DeleteItem_DeletesMissingItem" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="8e72cfa9-b443-4698-d30f-f54984591376">
+      <Execution id="e9262907-34ff-4194-8f6d-3329ed30f8c3" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="DeleteItem_DeletesMissingItem" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 10, expectedPages: 1)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="71515543-abb0-b4d3-45b0-1fd132444a0a">
+      <Execution id="7bc32fc6-ac3b-4199-827f-c24e205a5caf" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_GetsProperPages" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.CreateItem_Creates(name: &quot;name2&quot;, description: &quot;description2&quot;)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="7bae40ff-9791-ccc8-c27c-21b83c71e081">
+      <Execution id="2b9f4b5f-8f67-46ca-8b92-748b9dc9c386" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="CreateItem_Creates" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_SortsAscending" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="8db15930-b549-1886-51b3-f511798d6d86">
+      <Execution id="0521903b-f5a0-4d1a-9c8c-5736c9d3c591" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_SortsAscending" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;&quot;, expectedResults: 100)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="93f091b9-51e2-f459-e6ff-2c01a2ff5b59">
+      <Execution id="42a61ce3-b31c-426c-818e-38689f84167f" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ServiceRouteMapperTests.RegisterRoutes_RegistersAtLestOneRoute" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="09a01a29-9f90-c98e-ccab-5c937defdc5a">
+      <Execution id="9bc58682-c498-45b0-a39b-ee531fc08f38" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ServiceRouteMapperTests" name="RegisterRoutes_RegistersAtLestOneRoute" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 2&quot;, expectedResults: 11)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="83617fe6-c7e9-57fc-83bd-a46f898c96bc">
+      <Execution id="b7a914fa-af5d-4282-b79e-500f4e15c7c1" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 101, expectedPages: 11)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="720de21b-123b-bc1c-35fd-23b8daf2e05d">
+      <Execution id="7fc0a39e-fe6b-4a57-b06b-7c41c3d99a68" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_GetsProperPages" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 10&quot;, expectedResults: 2)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="1cacca20-3a91-a921-7a69-8e724a2019a7">
+      <Execution id="9e3bdc7a-ad08-4867-9fea-e378acc4d3c0" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_50Items_GetsProperly" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="34cf2213-8fb1-0049-897f-e511f492c0dc">
+      <Execution id="bda0ea63-361c-4313-a61f-e049565b0947" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_50Items_GetsProperly" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.CreateItem_Creates(name: &quot;name1&quot;, description: &quot;description1&quot;)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="224e056e-038e-c009-a150-6b9b3d19a8ea">
+      <Execution id="f2709613-903c-491e-b050-f3500f4e966a" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="CreateItem_Creates" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 100&quot;, expectedResults: 1)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="9b9e6a9f-e082-4c95-7625-e109e205a712">
+      <Execution id="94562dca-7cb4-41d8-a1f8-8cfd7014ec66" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.EditItem_Saves" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="cb0e13cb-7549-11bb-c0cd-4ad89b7ceba3">
+      <Execution id="3367e24f-c694-4d12-ab7d-a54f3025037d" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="EditItem_Saves" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Name 1&quot;, expectedResults: 12)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="04d40213-b56b-1456-de29-53faf92cd83b">
+      <Execution id="3207846a-49d2-4746-ae44-093170ebcac5" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.DeleteItem_Deletes" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="317fc975-d7e6-f0ba-8645-07db130c7ade">
+      <Execution id="c1e86286-c391-459c-b376-52b68ec38d39" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="DeleteItem_Deletes" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_GetsProperPages(amount: 9, expectedPages: 1)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="7e3c49ec-b106-ccfb-870c-2832424c4892">
+      <Execution id="51efdc65-3521-4be3-b46e-0c6af03a6757" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_GetsProperPages" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;Missing&quot;, expectedResults: 0)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="a5bc4147-6463-6e84-51ca-f80cea6bcbdb">
+      <Execution id="5d0ec9d8-3050-4095-b75b-16b40f869117" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_SortsDescending" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="7df1447e-5788-e173-7edd-0ffbb389b7d2">
+      <Execution id="40fc37d7-135a-460d-acb0-7f23bd2d9134" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_SortsDescending" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Page0_DefaultsToPage1" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="ebbb7f6b-c777-7754-99b4-8afea8f44805">
+      <Execution id="85dc8ce9-c6af-42b1-bb5b-a06899c7279e" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Page0_DefaultsToPage1" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.Controllers.ItemControllerTests.GetItemsPage_Query_Filters(query: &quot;1&quot;, expectedResults: 20)" storage="/home/runner/work/mytestmodule/mytestmodule/integrationtests/bin/release/integrationtests.dll" id="2ff01883-7fa7-7760-1fa7-d15840a392df">
+      <Execution id="16703785-a0f7-4adf-86a6-93f597543f72" />
+      <TestMethod codeBase="/home/runner/work/MyTestModule/MyTestModule/IntegrationTests/bin/Release/IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netfx/" className="IntegrationTests.Controllers.ItemControllerTests" name="GetItemsPage_Query_Filters" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1cacca20-3a91-a921-7a69-8e724a2019a7" executionId="9e3bdc7a-ad08-4867-9fea-e378acc4d3c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="317fc975-d7e6-f0ba-8645-07db130c7ade" executionId="c1e86286-c391-459c-b376-52b68ec38d39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e640582f-353e-056f-2e3d-8c294f40b9c5" executionId="40647b52-ae54-4605-b74c-a6290b9e4275" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e72cfa9-b443-4698-d30f-f54984591376" executionId="e9262907-34ff-4194-8f6d-3329ed30f8c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09a01a29-9f90-c98e-ccab-5c937defdc5a" executionId="9bc58682-c498-45b0-a39b-ee531fc08f38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bae40ff-9791-ccc8-c27c-21b83c71e081" executionId="2b9f4b5f-8f67-46ca-8b92-748b9dc9c386" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e3c49ec-b106-ccfb-870c-2832424c4892" executionId="51efdc65-3521-4be3-b46e-0c6af03a6757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34cf2213-8fb1-0049-897f-e511f492c0dc" executionId="bda0ea63-361c-4313-a61f-e049565b0947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="720de21b-123b-bc1c-35fd-23b8daf2e05d" executionId="7fc0a39e-fe6b-4a57-b06b-7c41c3d99a68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04d40213-b56b-1456-de29-53faf92cd83b" executionId="3207846a-49d2-4746-ae44-093170ebcac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83617fe6-c7e9-57fc-83bd-a46f898c96bc" executionId="b7a914fa-af5d-4282-b79e-500f4e15c7c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7df1447e-5788-e173-7edd-0ffbb389b7d2" executionId="40fc37d7-135a-460d-acb0-7f23bd2d9134" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="409dd1d1-253d-99cc-1f60-ca9211cee6c7" executionId="9b354a37-8f66-41fb-8334-7709d729f965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b9e6a9f-e082-4c95-7625-e109e205a712" executionId="94562dca-7cb4-41d8-a1f8-8cfd7014ec66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93f091b9-51e2-f459-e6ff-2c01a2ff5b59" executionId="42a61ce3-b31c-426c-818e-38689f84167f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ff01883-7fa7-7760-1fa7-d15840a392df" executionId="16703785-a0f7-4adf-86a6-93f597543f72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="224e056e-038e-c009-a150-6b9b3d19a8ea" executionId="f2709613-903c-491e-b050-f3500f4e966a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebbb7f6b-c777-7754-99b4-8afea8f44805" executionId="85dc8ce9-c6af-42b1-bb5b-a06899c7279e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e619cf0d-58bb-53ba-5db6-ac87e5eed85e" executionId="d5e2e93b-0a6f-4a64-a7ba-bec24e7b7e00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb0e13cb-7549-11bb-c0cd-4ad89b7ceba3" executionId="3367e24f-c694-4d12-ab7d-a54f3025037d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5bc4147-6463-6e84-51ca-f80cea6bcbdb" executionId="5d0ec9d8-3050-4095-b75b-16b40f869117" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36167172-0f82-c142-899d-1fe7e63f46b8" executionId="fef24c6d-63d0-409f-9018-01418dee908e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8db15930-b549-1886-51b3-f511798d6d86" executionId="0521903b-f5a0-4d1a-9c8c-5736c9d3c591" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71515543-abb0-b4d3-45b0-1fd132444a0a" executionId="7bc32fc6-ac3b-4199-827f-c24e205a5caf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="24" executed="24" passed="24" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit Mono 6.12.0.200 (tarball Tue Jul 11 21:37:50 UTC 2023))
+[xUnit.net 00:00:00.84]   Discovering: IntegrationTests
+[xUnit.net 00:00:01.18]   Discovered:  IntegrationTests
+[xUnit.net 00:00:01.28]   Starting:    IntegrationTests
+[xUnit.net 00:00:04.34]   Finished:    IntegrationTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
