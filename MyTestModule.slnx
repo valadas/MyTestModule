@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="IntegrationTests/IntegrationTests.csproj" />
+  <Project Path="Module.csproj" />
+  <Project Path="module.web/module.web.njsproj">
+    <Build Solution="Release|*" />
+  </Project>
+  <Project Path="UnitTests/UnitTests.csproj" />
+  <Project Path="_build/_build.csproj" />
+</Solution>
