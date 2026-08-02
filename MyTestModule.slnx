@@ -1,7 +1,7 @@
 <Solution>
   <Project Path="IntegrationTests/IntegrationTests.csproj" />
-  <Project Path="Module.csproj" />
-  <Project Path="module.web/module.web.njsproj">
+  <Project Path="Module.csproj" Id="ae6b0259-2ed8-42bb-98db-3c061ea7f1b4" />
+  <Project Path="module.web/module.web.njsproj" Id="261a4ada-0213-4989-9d0a-761fc6ec1574">
     <Build Solution="Release|*" />
   </Project>
   <Project Path="UnitTests/UnitTests.csproj" />
