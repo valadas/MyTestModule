@@ -1,8 +1,9 @@
 <Solution>
   <Project Path="IntegrationTests/IntegrationTests.csproj" />
-  <Project Path="Module.csproj" />
-  <Project Path="module.web/module.web.njsproj">
-    <Build Solution="Release|*" />
+  <Project Path="Module.csproj" Id="ae6b0259-2ed8-42bb-98db-3c061ea7f1b4" />
+  <Project Path="module.web/module.web.esproj">
+    <Build />
+    <Deploy />
   </Project>
   <Project Path="UnitTests/UnitTests.csproj" />
   <Project Path="_build/_build.csproj" />
