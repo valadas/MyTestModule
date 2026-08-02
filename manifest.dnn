@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke version="5.0" type="Package">
   <packages>
     <package name="Eraware_MyModule" type="Module" version="00.01.00">
