@@ -39,7 +39,7 @@
     "@stencil/core": "^4.38.0",
     "@stencil/sass": "^3.0.2",
     "@stencil/store": "^2.0.0",
-    "@types/node": "^26.1.2",
+    "@types/node": "^26.4.0",
     "eslint": "^10.6.0",
     "eslint-plugin-react": "^7.37.5",
     "jiti": "^2.4.2",
